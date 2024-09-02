@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Preloader";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-// import About from "./components/About/About";
-// import Projects from "./components/Projects/Projects";
+import Sejarah from "./pages/Sejarah";
+import Waditra from "./pages/Waditra";
+import Jenis from "./pages/JenisGamelan";
+import Notasi from "./pages/Notasi";
 import Footer from "./components/Footer";
-// import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
   Route,
@@ -37,6 +38,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/sejarah" element={<Sejarah/>} />
+          <Route path="/jenis" element={<Jenis/>} />
+          <Route path="/waditra" element={<Waditra/>} />
+          <Route path="/notasi" element={<Notasi/>} />
         </Routes>
         <Footer />
       </div>

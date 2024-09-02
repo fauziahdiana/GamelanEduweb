@@ -61,9 +61,10 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-            <NavDropdown style={{ marginBottom: "2px" }} title="Tentang" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Jenis-Jenis</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Waditra</NavDropdown.Item>
+            <NavDropdown style={{ marginBottom: "2px" }} title="About" id="basic-nav-dropdown">
+              <NavDropdown.Item as={Link} to="/sejarah" onClick={() => updateExpanded(false)} >Sejarah</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/jenis" onClick={() => updateExpanded(false)}>Jenis Gamelan</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/waditra" onClick={() => updateExpanded(false)}>Waditra</NavDropdown.Item>
             </NavDropdown>
             </Nav.Item>
 
