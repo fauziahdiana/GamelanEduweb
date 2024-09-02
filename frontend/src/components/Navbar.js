@@ -55,16 +55,15 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} style={{ marginBottom: "2px" }}>
+                Beranda
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-            <NavDropdown style={{ marginBottom: "2px" }} title="About" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2"> Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown style={{ marginBottom: "2px" }} title="Tentang" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Jenis-Jenis</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Waditra</NavDropdown.Item>
             </NavDropdown>
             </Nav.Item>
 
@@ -73,11 +72,9 @@ function NavBar() {
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
+                style={{ marginBottom: "2px" }}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                Notasi
               </Nav.Link>
             </Nav.Item>
 
@@ -86,8 +83,9 @@ function NavBar() {
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
+                style={{ marginBottom: "2px" }}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              Tutorial
               </Nav.Link>
             </Nav.Item>
 
@@ -96,12 +94,13 @@ function NavBar() {
                 href="https://soumyajitblogs.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
+                style={{ marginBottom: "2px" }}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+              Kontak
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/soumyajit4419/Portfolio"
                 target="_blank"
@@ -110,7 +109,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
