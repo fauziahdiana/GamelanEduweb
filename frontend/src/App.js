@@ -5,8 +5,8 @@ import Home from "./pages/Home";
 import Sejarah from "./pages/Sejarah";
 import Waditra from "./pages/Waditra";
 import Jenis from "./pages/JenisGamelan";
+import Notasi from "./pages/Notasi";
 import Footer from "./components/Footer";
-// import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
   Route,
@@ -41,6 +41,7 @@ function App() {
           <Route path="/sejarah" element={<Sejarah/>} />
           <Route path="/jenis" element={<Jenis/>} />
           <Route path="/waditra" element={<Waditra/>} />
+          <Route path="/notasi" element={<Notasi/>} />
         </Routes>
         <Footer />
       </div>
