@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 6.5em !important;
+  width: 8.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -404,25 +404,21 @@ button:focus {
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-top: 20px !important;
+  padding-bottom: 10px !important ;
 }
 .footer-copywright {
-  text-align: center !important;
+  text-align: left !important;
 }
 
 .footer-body {
   z-index: 1;
-  text-align: center !important;
+  text-align: left !important;
 }
 
 @media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
-
   .footer-body {
-    text-align: center !important;
+    text-align: left !important;
   }
 }
 
@@ -431,6 +427,8 @@ button:focus {
   color: white !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
+  padding-left: 30px !important;
+  margin-right: 5px !important;
 }
 .footer-icons {
   margin-top: 0.5em !important;
