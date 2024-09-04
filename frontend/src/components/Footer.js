@@ -5,7 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaPhone } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -13,15 +13,19 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+        <Col md="2" className="footer-copywright" style={{ paddingTop: "20px", paddingLeft: "10px" }}>
+          <h3 style={{ fontSize: "35px" }}>Kontak</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+      </Row>
+      <Row>
+        <Col md="2" className="footer-copywright" style={{ paddingBottom: "30px", paddingTop: "20px", marginLeft: "30px" }}>
+          <h3 style={{ fontSize: "20px"}}> <FaPhone/> Telepon </h3>
         </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+      </Row>
+      <Row> 
+        <Col md="10" className="footer-body" style={{ paddingBottom: "80px", paddingTop: "100px"}}>
+          <ul className="footer-icons" style={{ listStyleType: "none", paddingLeft: 0 }}>
+            <li className="social-icons" style={{ display: "inline-block", marginRight: "10px" }}>
               <a
                 href="https://github.com/soumyajit4419"
                 style={{ color: "white" }}
@@ -31,7 +35,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="social-icons" style={{ display: "inline-block", marginRight: "10px" }}>
               <a
                 href="https://twitter.com/Soumyajit4419"
                 style={{ color: "white" }}
@@ -41,7 +45,7 @@ function Footer() {
                 <AiOutlineTwitter />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="social-icons" style={{ display: "inline-block", marginRight: "10px" }}>
               <a
                 href="https://www.linkedin.com/in/soumyajit4419/"
                 style={{ color: "white" }}
@@ -51,7 +55,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="social-icons" style={{ display: "inline-block", marginRight: "10px" }}>
               <a
                 href="https://www.instagram.com/soumyajit4419"
                 style={{ color: "white" }}

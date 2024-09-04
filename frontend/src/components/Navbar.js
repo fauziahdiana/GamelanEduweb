@@ -3,19 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
+import logo from "../Assets/logo.svg";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
-import {
-  AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -40,7 +29,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo" alt="brand"/>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -48,20 +37,17 @@ function NavBar() {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span></span>
-          <span></span>
-          <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} style={{ marginBottom: "2px" }}>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} style={{ marginBottom: "5px" }}>
                 Beranda
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-            <NavDropdown style={{ marginBottom: "2px" }} title="About" id="basic-nav-dropdown">
+            <NavDropdown style={{ marginBottom: "2px" }} title="Tentang" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/sejarah" onClick={() => updateExpanded(false)} >Sejarah</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/jenis" onClick={() => updateExpanded(false)}>Jenis Gamelan</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/waditra" onClick={() => updateExpanded(false)}>Waditra</NavDropdown.Item>
