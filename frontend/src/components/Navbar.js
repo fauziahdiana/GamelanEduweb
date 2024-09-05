@@ -57,7 +57,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/notasi"
                 onClick={() => updateExpanded(false)}
                 style={{ marginBottom: "2px" }}
               >
