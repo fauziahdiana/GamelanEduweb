@@ -424,11 +424,9 @@ button:focus {
 
 .footer h3 {
   font-size: 1em;
-  color: white !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   padding-left: 30px !important;
-  margin-right: 5px !important;
 }
 .footer-icons {
   margin-top: 0.5em !important;
