@@ -1,10 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-function NextHome() {
+function Tutorial() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="about-section">
       <Container>
+      <div className="max-w-sm mx-auto bg-white shadow-lg rounded-2xl overflow-hidden mt-1 mb-8">
+        <div className="p-2">
+          <h2 className="project-heading mb-2 text-black">
+            Sejarah <strong className="purple">Gamelan</strong>
+          </h2>
+        </div>
+      </div>
       <div className="flex flex-col md:flex-row rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
@@ -60,8 +67,10 @@ function NextHome() {
         </p>
       </div>
     </div>
+
       </Container>
     </Container>
   );
 }
-export default NextHome;
+
+export default Tutorial;

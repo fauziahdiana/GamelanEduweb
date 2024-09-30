@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import homeLogo from "../../Assets/home-main.svg";
-// import Particle from "../Particle";
 import NextHome from "./NextHome";
-import Type from "../components/TypeWriter";
 
 function Home() {
   return (
@@ -13,31 +10,17 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+              <h1 style={{ paddingBottom: 15, fontSize: "80px", color: "#F6B51B", fontFamily: "Poppins, sans-serif", fontWeight: "bold" }} className="heading">
+                GAMELAN EDUWEB{" "}
               </h1>
-
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name">Selamat Datang di Gamelan EduWeb</strong>
               </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
+              <h2 style={{marginLeft: "10px", paddingTop: 15, color: "#164058", fontSize: "30px", }}>
+                Website ini dirancang sebagai panduan untuk mempelajari gamelan degung, termasuk sejarah,
+                teknik bermain, dan notasi lagu. Mari lestarikan dan sebarkan warisan musik Indonesia ini bersama kami!
+              </h2>
             </Col>
-
-            {/* <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col> */}
           </Row>
         </Container>
       </Container>
