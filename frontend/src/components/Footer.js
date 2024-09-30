@@ -56,7 +56,7 @@ function Footer() {
             <Row>
               <Col md="12" className="footer-map" style={{ paddingBottom: "10px", paddingTop: "30px", display: "flex", justifyContent: "center" }}>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509368!2d144.95373631531053!3d-37.816279742021825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43fb3f1f37%3A0x5045675218ce840!2sVictoria%20Harbour%20Promenade%2C%20Docklands%20VIC%203008%2C%20Australia!5e0!3m2!1sen!2sid!4v1601234567890!5m2!1sen!2sid"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.1921251576852!2d106.82718341588782!3d-6.175392995525344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e17859ab07%3A0x3a10508c86f543d1!2sMonas!5e0!3m2!1sen!2sid!4v1601234567890!5m2!1sen!2sidhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63352.95180583671!2d106.93000840670774!3d-6.924872399123975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68483288b9fd1f%3A0xc7425b69d2b22634!2sUniversitas%20Muhammadiyah%20Sukabumi!5e0!3m2!1sen!2sid!4v1693896300134!5m2!1sen!2sidhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63352.95180583671!2d106.93000840670774!3d-6.924872399123975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68483288b9fd1f%3A0xc7425b69d2b22634!2sUniversitas%20Muhammadiyah%20Sukabumi!5e0!3m2!1sen!2sid!4v1693896926543!5m2!1sen!2sid"
                   width="80%"
                   height="300"
                   style={{ border: "0" }}

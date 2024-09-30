@@ -6,9 +6,9 @@ function Notasi() {
   return (
     <Container fluid className="about-section">
       <Container>
-      <div className="max-w-sm mx-auto bg-white shadow-lg rounded-2xl overflow-hidden mt-1 mb-8">
+      <div className="max-w-sm mx-auto bg-[#164058] shadow-lg rounded-2xl overflow-hidden mt-1 mb-8">
         <div className="p-2">
-          <h2 className="project-heading mb-2 text-black">
+          <h2 className="project-heading mb-2 text-white">
             Notasi <strong className="purple">Lagu</strong>
           </h2>
         </div>
@@ -16,7 +16,7 @@ function Notasi() {
 
         <>
         <button
-        className="bg-pink-500 rounded-full text-white active:bg-pink-600 font-bold uppercase text-sm w-100 h-10 flex items-center justify-center shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="bg-[#164058] rounded-full text-white active:bg-[#164058] font-bold uppercase text-sm w-100 h-10 flex items-center justify-center shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}
         >

@@ -5,15 +5,15 @@ function Waditra() {
   return (
     <Container fluid className="about-section">
       <Container>
-      <div className="w-full max-w-screen-md mx-auto bg-white shadow-lg rounded-2xl overflow-hidden mt-1 mb-4">
+    <div className="w-full max-w-screen-md mx-auto bg-[#164058] shadow-lg rounded-2xl overflow-hidden mt-1 mb-4">
       <div className="p-1">
-        <h3 className="project-heading mb-2 text-black">
+        <h3 className="project-heading mb-2 text-white">
           Waditra <strong className="purple">Gamelan Degung</strong>
         </h3>
       </div>
     </div>
     
-    <div className="flex flex-col md:flex-row rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
@@ -22,19 +22,19 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-yellow-500">
           Saron
         </h5>
-        <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-        Terdapat dua buah saron (panerus dan peking). Saron adalah waditra jenis alat pukul berbilah, 
-        terbuat dari bahan logam perunggu yang dimainkan dengan cara dipukul, mempergunakan alat bantu pemukul. 
-        saron adalah jenis waditra yang bersuara nyaring/keras. Saron pada Degung berfungsi sebagai pembawa arkuh lagu, 
-        ornamen dan akopayemen. Soepandi, A (1974) saron sebagai variasi dalam lagu.
+        <p className="mb-4 text-base text-white dark:text-white">
+          Terdapat dua buah saron (panerus dan peking). Saron adalah waditra jenis alat pukul berbilah, 
+          terbuat dari bahan logam perunggu yang dimainkan dengan cara dipukul, mempergunakan alat bantu pemukul. 
+          Saron adalah jenis waditra yang bersuara nyaring/keras. Saron pada Degung berfungsi sebagai pembawa arkuh lagu, 
+          ornamen dan akopayemen. Soepandi, A (1974) saron sebagai variasi dalam lagu.
         </p>
       </div>
     </div>
     
-    <div className="flex flex-col md:flex-row rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
@@ -43,10 +43,10 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-neutral-50">
           Bonang
         </h5>
-        <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+        <p className="mb-4 text-base text-white dark:text-white">
         Terdapat sebuah bonang dalam Degung. Bonang adalah waditra jenis alat pukul berpenclon, 
         terbuat dari bahan logam perunggu yang dimainkan dengan cara dipukul mempergunakan alat bantu pemukul. 
         Bentuk waditra bonang seperti bentuk goong, namun penclonnya berukuran lebih kecil. 
@@ -56,7 +56,7 @@ function Waditra() {
       </div>
     </div>
 
-    <div className="flex flex-col md:flex-row rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
@@ -65,17 +65,17 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-neutral-50">
           Jengglong
         </h5>
-        <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+        <p className="mb-4 text-base text-white dark:text-white">
         Jengglong adalah waditra berpenclon dibuat dari perunggu, kuningan atau besi yang berdiameter 
         antara tiga puluh sampai dengan empat puluh centimeter. Dalam suatu ancak atau kakanco terdiri atas enam buah kromong.
         </p>
       </div>
     </div>
 
-    <div className="flex flex-col md:flex-row rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
@@ -84,10 +84,10 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-neutral-50">
           Penclon
         </h5>
-        <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+        <p className="mb-4 text-base text-white dark:text-white">
         Penclon pada alat musik jengglong berjumlah enam buah yang terdiri dari nada lima hingga lima 
         di bawahnya dengan wilayah nada yang lebih rendah dari bonang. Penclon-penclon ini digantung dengan 
         tali pada penyangga yangmberbentuk tiang gantungan. Soepandi, A (1974) jenglong berfungsi sebagai rangka gending.
@@ -95,7 +95,7 @@ function Waditra() {
       </div>
     </div>
 
-    <div className="flex flex-col md:flex-row rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
@@ -104,10 +104,10 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-neutral-50">
           Goong
         </h5>
-        <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+        <p className="mb-4 text-base text-white dark:text-white">
         Goong adalah waditra jenis alat pukul berpenclon, terbuat dari bahan logam perunggu. 
         Dibunyikan dengan cara dipukul oleh alat bantu pemukul dang menghasilkan suara yang paling besar. 
         Soepandi (1974) fungsi goong dalam Degung yaitu sebagai barometer lagu. Bertugas sebagai pengatur wiletan 
