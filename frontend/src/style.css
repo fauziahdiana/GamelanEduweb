@@ -84,10 +84,14 @@ button:focus {
 
 .navbar {
   position: fixed !important;
-  background-color: #164058;
+  background-color: #164058 !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+}
+
+.navbar-custom{
+  background-color: #164058 !important;
 }
 
 .navbar-toggler {
