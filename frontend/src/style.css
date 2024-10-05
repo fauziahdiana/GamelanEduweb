@@ -75,134 +75,148 @@ button:focus {
 /* --------- */
 /* Navbar Section  */
 /* --------- */
+/* General Styles */
+/* General Styles */
+/* General Styles */
 .sticky {
-  background-color: #1b1a2ea9 !important;
-  transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(22, 64, 88, 1) !important;
-  backdrop-filter: blur(15px) !important;
-} */
-
-.navbar {
-  position: fixed !important;
-  background-color: #164058 !important;
-  transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+  background-color: rgba(27, 26, 46, 0.66);
+  transition: all 0.3s ease-out;
+  box-shadow: 0px 5px 10px rgba(22, 64, 88, 0.8);
+  backdrop-filter: blur(10px);
 }
 
-.navbar-custom{
-  background-color: #164058 !important;
+.navbar {
+  position: fixed;
+  background-color: #164058;
+  transition: all 0.3s ease-out;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.95rem; /* Mengecilkan ukuran font */
+}
+
+.navbar-custom {
+  background-color: #164058;
 }
 
 .navbar-toggler {
-  position: relative !important;
-  background-color: transparent !important;
-  border-color: transparent !important;
+  position: relative;
+  background-color: transparent;
+  border: none;
 }
 
 .navbar-toggler span {
-  display: block !important;
-  background-color: #be50f4 !important;
-  height: 4px !important;
-  width: 27px !important;
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
-  transform: rotate(0deg) !important;
-  left: 0 !important;
-  opacity: 1 !important;
+  display: block;
+  background-color: #be50f4;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
+/* Navbar Toggle (Active State) */
 .navbar-toggler:focus,
 .navbar-toggler:active {
-  outline: 0 !important;
-}
-
-.navbar-toggler span:nth-child(1),
-.navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
-  transition: transform 0.35s ease-in-out !important;
+  outline: none;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
-  position: absolute !important;
-  left: 12px !important;
-  top: 10px !important;
-  transform: rotate(135deg) !important;
-  opacity: 0.9 !important;
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  transform: rotate(135deg);
+  opacity: 0.9;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
-  height: 12px !important;
-  visibility: hidden !important;
-  background-color: transparent !important;
+  height: 10px;
+  visibility: hidden;
+  background-color: transparent;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
-  position: absolute !important;
-  left: 12px !important;
-  top: 10px !important;
-  transform: rotate(-135deg) !important;
-  opacity: 0.9 !important;
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  transform: rotate(-135deg);
+  opacity: 0.9;
 }
 
+/* Responsive Styles */
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
-    background-color: #164058 !important;
+    padding: 0.7rem 1rem;
+    font-size: 0.85rem; /* Ukuran font lebih kecil untuk layar kecil */
   }
-  .navbar-nav .nav-item a::after {
-    display: none !important;
+
+  .navbar-brand {
+    font-size: 0.95rem;
+  }
+
+  .logo {
+    height: 4.5em;
+    width: 6em;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0.8rem;
+    word-spacing: 0.2em; /* Menambah jarak antar kata pada layar kecil */
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin-left: 10px;
   }
 }
+
+/* Additional Styling */
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: #fafafa;
+  font-size: 1.2rem;
 }
 
 .logo {
-  height: 6.5em !important;
-  width: 8.5em !important;
+  height: 5em;
+  width: 7em;
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
-  padding-right: 2rem !important;
-  padding-left: 2rem !important;
-}
-
-.nav-link {
-  padding: 0.8rem 1rem !important;
-}
-
-@media (max-width: 767px) {
-  .nav-link {
-    padding: 0.7rem 1rem !important;
-  }
+  color: white;
+  padding: 0.6rem 0.8rem;
+  word-spacing: 0.2em; /* Menambah jarak antar kata */
 }
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .navbar-nav .nav-item a {
   font-weight: 400;
-  transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out;
   position: relative;
   z-index: 1;
+  word-spacing: 0.15em; /* Menambah jarak antar kata */
 }
 
 .navbar-nav .nav-item a::after {
   content: "";
-  position: relative;
-  height: 5px;
-  width: 14px;
-  border-radius: 16px;
-   bottom: -1px;
-  left: 5px;
+  position: absolute;
+  height: 4px;
+  width: 10px;
+  border-radius: 8px;
+  bottom: -1px;
+  left: 4px;
+  /* background-color: #be50f4; */
   z-index: -1;
-  transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out;
 }
+
+
+
 
 /* --------- */
 /* Home section */
@@ -542,10 +556,10 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 130px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  /* background-image: var(--section-background-color) !important;
+  color: white !important; */
 }
 
 .tech-icons {

@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import catrik from '../Assets/Projects/catrik1.png'
 
 function Notasi() {
   const [showModal, setShowModal] = React.useState(false);
@@ -25,40 +26,37 @@ function Notasi() {
 
       {showModal ? (
         <>
-          <div
-            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-          >
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                {/*header*/}
-                <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                  <h3 className="text-3xl font-semibold text-black">
-                    Notasi Lagu
-                  </h3>
-                </div>
-                {/*body*/}
-                <div className="relative p-6 flex-auto">
-              <img
-                src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
-                alt="Notasi Lagu"
-                className="h-95 w-80"
-              />
-            </div>
-                {/*footer*/}
-                <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
-                  <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    Close
-                  </button>
-                </div>
+          <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+          <div className="relative w-auto my-6 mx-auto max-w-3xl max-h-screen">
+            {/* Content */}
+            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none overflow-y-scroll max-h-[90vh]">
+              {/* Header */}
+              <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                <h3 className="text-3xl font-semibold text-black">Notasi Lagu</h3>
+              </div>
+              {/* Body */}
+              <div className="relative p-6 flex-auto overflow-y-scroll">
+                <img
+                  src={catrik} // Pastikan gambar lokal dipanggil dengan benar di React.
+                  alt="Notasi Lagu"
+                  className="h-auto w-full object-contain"
+                />
+              </div>
+              {/* Footer */}
+              <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+                <button
+                  className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                  type="button"
+                  onClick={() => setShowModal(false)}
+                >
+                  Close
+                </button>
               </div>
             </div>
           </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+        </div>
+        <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+
         </>
       ) : null}
     </>

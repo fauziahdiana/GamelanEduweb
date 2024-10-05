@@ -5,7 +5,7 @@ function NextHome() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-      <div className="flex flex-col md:flex-row rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+      <div className="flex flex-col md:flex-row rounded-lg border border-black shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 object-cover rounded-lg"
@@ -32,7 +32,7 @@ function NextHome() {
       </div>
     </div>
     
-    <div className="flex flex-col md:flex-row rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full">
+    <div className="flex flex-col md:flex-row rounded-lg border border-black shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full">
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
         {/* <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
           Bonang
