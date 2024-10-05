@@ -208,9 +208,7 @@ button:focus {
   height: 4px;
   width: 10px;
   border-radius: 8px;
-  bottom: -1px;
-  left: 4px;
-  /* background-color: #be50f4; */
+  bottom: 20px;
   z-index: -1;
   transition: all 0.3s ease-out;
 }

@@ -41,13 +41,13 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} style={{ marginBottom: "5px", fontSize: "20px" }}>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} style={{ marginBottom: "5px", marginRight: "30px", fontSize: "20px" }}>
                 Beranda
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-            <NavDropdown style={{ marginBottom: "2px", fontSize: "20px" }} title="Tentang" id="basic-nav-dropdown">
+            <NavDropdown style={{ marginBottom: "2px", marginRight: "50px", fontSize: "20px" }} title="Tentang" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/sejarah" onClick={() => updateExpanded(false)} >Sejarah</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/jenis" onClick={() => updateExpanded(false)}>Jenis Gamelan</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/waditra" onClick={() => updateExpanded(false)}>Waditra</NavDropdown.Item>
@@ -59,21 +59,17 @@ function NavBar() {
                 as={Link}
                 to="/notasi"
                 onClick={() => updateExpanded(false)}
-                style={{ marginBottom: "2px", fontSize: "20px" }}
+                style={{ marginBottom: "2px", marginRight: "30px", fontSize: "20px" }}
               >
                 Notasi
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/tutorial"
-                onClick={() => updateExpanded(false)}
-                style={{ marginBottom: "2px", fontSize: "20px" }}
-              >
-              Tutorial
-              </Nav.Link>
+            <NavDropdown style={{ marginBottom: "2px", marginRight: "50px", fontSize: "20px" }} title="Tutorial" id="basic-nav-dropdown">
+              <NavDropdown.Item as={Link} to="/tutorial" onClick={() => updateExpanded(false)} >Teknik Tabuhan Dasar</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/tutorial" onClick={() => updateExpanded(false)}>Teknik Tabuhan Lagu</NavDropdown.Item>
+            </NavDropdown>
             </Nav.Item>
 
             <Nav.Item>
@@ -81,7 +77,7 @@ function NavBar() {
                 href="https://soumyajitblogs.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
-                style={{ marginBottom: "2px", fontSize: "20px" }}
+                style={{ marginBottom: "2px", marginRight: "5px", fontSize: "20px" }}
               >
               Kontak
               </Nav.Link>
