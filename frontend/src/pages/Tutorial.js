@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Modal, Button } from "react-bootstrap";
-// import video1 from "../Assets/Videos/Pangkat Tabuhan Catrik.mp4"; // Video lokal
-import thumbnailImage from "../Assets/Projects/catrik1.png"; // Gambar thumbnail
+import video1 from "../Assets/Video/video1.mp4"; // Video lokal
+import thumbnailImage from "../Assets/Projects/thumb1.png"; // Gambar thumbnail
 
 function Tutorial() {
   // State untuk modal
@@ -29,9 +29,9 @@ function Tutorial() {
   // Data video untuk ditampilkan
   const videos = [
     {
-      title: "Tabuhan Dasar Saron",
+      title: "Tabuhan Kulu-Kulu Bonang",
       description: "Video ini menjelaskan teknik dasar dalam memainkan instrumen Saron pada gamelan, termasuk cara memukul dan memposisikan alat.",
-      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      url: video1,
       thumbnail: thumbnailImage,
     },
     {
