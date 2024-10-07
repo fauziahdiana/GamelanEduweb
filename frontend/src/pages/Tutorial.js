@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Container, Modal, Button } from "react-bootstrap";
 import video1 from "../Assets/Video/video1.mp4"; // Video lokal
+import video2 from "../Assets/Video/video2.mp4";
 import thumbnailImage from "../Assets/Projects/thumb1.png"; // Gambar thumbnail
+import thumb2 from "../Assets/Projects/thumb2.png";
 
 function Tutorial() {
   // State untuk modal
@@ -35,10 +37,10 @@ function Tutorial() {
       thumbnail: thumbnailImage,
     },
     {
-      title: "Tabuhan Dasar Bonang",
+      title: "Tabuhan Goong Embat Sawilen",
       description: "Pelajari teknik memainkan Bonang pada gamelan, mencakup pukulan dasar dan kombinasi tabuhan untuk lagu tradisional.",
-      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      thumbnail: thumbnailImage,
+      url: video2,
+      thumbnail: thumb2,
     },
     {
       title: "Tabuhan Dasar Jenglong",

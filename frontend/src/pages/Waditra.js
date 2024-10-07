@@ -1,5 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import saron from "../Assets/Projects/saron.jpg"
+import bonang from "../Assets/Projects/bonang.jpg"
+import goong from "../Assets/Projects/goong.jpg"
+import jengglong from "../Assets/Projects/jengglong.jpg"
+import penclon from "../Assets/Projects/penclon.jpg"
 
 function Waditra() {
   return (
@@ -17,7 +22,7 @@ function Waditra() {
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
-          src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+          src={saron}
           alt="Saron"
         />
       </div>
@@ -38,7 +43,7 @@ function Waditra() {
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
-          src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+          src={bonang}
           alt="Saron"
         />
       </div>
@@ -60,7 +65,7 @@ function Waditra() {
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
-          src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+          src={jengglong}
           alt="Saron"
         />
       </div>
@@ -79,7 +84,7 @@ function Waditra() {
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
-          src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+          src={penclon}
           alt="Saron"
         />
       </div>
@@ -99,7 +104,7 @@ function Waditra() {
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
-          src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+          src={goong}
           alt="Saron"
         />
       </div>
