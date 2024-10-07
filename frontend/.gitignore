@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+#video tutorial
+/src/Assets/Video
 # production
 /build
 

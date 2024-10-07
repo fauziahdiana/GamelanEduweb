@@ -1,90 +1,138 @@
-import React from "react";
-import { Container, Row, Col, Table } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Modal, Button } from "react-bootstrap";
+// import video1 from "../Assets/Videos/Pangkat Tabuhan Catrik.mp4"; // Video lokal
+import thumbnailImage from "../Assets/Projects/catrik1.png"; // Gambar thumbnail
 
 function Tutorial() {
+  // State untuk modal
+  const [showModal, setShowModal] = useState(false);
+  const [selectedVideo, setSelectedVideo] = useState("");
+  const [selectedTitle, setSelectedTitle] = useState("");
+  const [selectedDescription, setSelectedDescription] = useState("");
+
+  // Fungsi untuk membuka modal
+  const handleShow = (videoUrl, title, description) => {
+    setSelectedVideo(videoUrl);
+    setSelectedTitle(title);
+    setSelectedDescription(description);
+    setShowModal(true);
+  };
+
+  // Fungsi untuk menutup modal
+  const handleClose = () => {
+    setShowModal(false);
+    setSelectedVideo("");
+    setSelectedTitle("");
+    setSelectedDescription("");
+  };
+
+  // Data video untuk ditampilkan
+  const videos = [
+    {
+      title: "Tabuhan Dasar Saron",
+      description: "Video ini menjelaskan teknik dasar dalam memainkan instrumen Saron pada gamelan, termasuk cara memukul dan memposisikan alat.",
+      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      thumbnail: thumbnailImage,
+    },
+    {
+      title: "Tabuhan Dasar Bonang",
+      description: "Pelajari teknik memainkan Bonang pada gamelan, mencakup pukulan dasar dan kombinasi tabuhan untuk lagu tradisional.",
+      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      thumbnail: thumbnailImage,
+    },
+    {
+      title: "Tabuhan Dasar Jenglong",
+      description: "Tutorial tentang cara memainkan Jenglong dengan benar, fokus pada irama dasar dan pemahaman pola pukulan.",
+      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      thumbnail: thumbnailImage,
+    },
+    {
+      title: "Tabuhan Dasar Goong",
+      description: "Panduan langkah demi langkah dalam memainkan Goong, mencakup penggunaan alat pukul dan teknik memperkuat suara.",
+      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      thumbnail: thumbnailImage,
+    },
+  ];
+
   return (
     <Container fluid className="about-section">
       <Container>
-        <Table bordered className="tutorial-table mt-5" responsive>
-          <tbody>
-            {/* Baris Pertama dengan Judul "Tutorial" */}
-            <tr>
-              <td colSpan="2" className="text-center p-4 bg-light">
-                <h3>Tutorial</h3>
-              </td>
-            </tr>
-            {/* Baris Kedua dengan 2 Video Tutorial */}
-            <tr>
-              <td className="p-4">
-                <div className="video-box">
-                  <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                    title="Tutorial 1"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                  <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-300">
-                    Tutorial 1: Memainkan Gamelan Saron
-                  </p>
+        <div className="inline-block mx-auto bg-[#164058] shadow-lg rounded-2xl overflow-hidden mt-1 mb-8">
+          <div className="p-2">
+            <h2 className="project-heading mb-2 text-white">
+              Teknik Tabuhan <strong className="purple">Dasar</strong>
+            </h2>
+          </div>
+        </div>
+
+        {/* Grid untuk menampilkan video thumbnail */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-screen-lg mx-auto">
+          {videos.map((video, index) => (
+            <div
+              key={index}
+              className="bg-[#164058] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-lg overflow-hidden flex items-center cursor-pointer"
+              onClick={() => handleShow(video.url, video.title, video.description)}
+            >
+              {/* Thumbnail Video */}
+              <div className="relative">
+                <img
+                  src={video.thumbnail}
+                  alt={`Thumbnail ${video.title}`}
+                  className="w-48 h-28 object-cover"
+                />
+                {/* Icon Play di atas gambar */}
+                <div className="absolute inset-0 flex justify-center items-center">
+                  <div className="bg-gray-800 bg-opacity-75 p-2 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-10 w-10 text-white"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d="M3 22v-20l18 10-18 10z" />
+                    </svg>
+                  </div>
                 </div>
-              </td>
-              <td className="p-4">
-                <div className="video-box">
-                  <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                    title="Tutorial 2"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                  <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-300">
-                    Tutorial 2: Teknik Memukul Gamelan
-                  </p>
-                </div>
-              </td>
-            </tr>
-            {/* Baris Ketiga dengan 2 Video Tutorial */}
-            <tr>
-              <td className="p-4">
-                <div className="video-box">
-                  <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                    title="Tutorial 3"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                  <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-300">
-                    Tutorial 3: Mengenal Gamelan Degung
-                  </p>
-                </div>
-              </td>
-              <td className="p-4">
-                <div className="video-box">
-                  <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                    title="Tutorial 4"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                  <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-300">
-                    Tutorial 4: Cara Merawat Alat Gamelan
-                  </p>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </Table>
+              </div>
+              {/* Deskripsi Video */}
+              <div className="p-4 text-white flex-1">
+                <h3 className="text-xl font-semibold">{video.title}</h3>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Modal untuk memutar video */}
+        <Modal show={showModal} onHide={handleClose} centered size="lg">
+          <Modal.Header closeButton>
+            <Modal.Title>{selectedTitle}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            {/* Video */}
+            {selectedVideo && selectedVideo.includes("youtube.com") ? (
+              <div className="ratio ratio-16x9 mb-4">
+                <iframe
+                  src={selectedVideo}
+                  title={selectedTitle}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  style={{ width: "100%", height: "100%" }}
+                ></iframe>
+              </div>
+            ) : (
+              <video controls style={{ width: "100%" }} className="mb-4">
+                <source src={selectedVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            )}
+            {/* Deskripsi Video */}
+            <div>
+              <h5 className="text-lg font-semibold mb-2">Deskripsi Video</h5>
+              <p>{selectedDescription}</p>
+            </div>
+          </Modal.Body>
+        </Modal>
       </Container>
     </Container>
   );
