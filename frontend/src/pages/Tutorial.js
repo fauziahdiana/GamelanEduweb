@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import { Container, Modal, Button } from "react-bootstrap";
 import video1 from "../Assets/Video/video1.mp4"; // Video lokal
 import video2 from "../Assets/Video/video2.mp4";
+import video3 from "../Assets/Video/video3.mp4";
+import video4 from "../Assets/Video/video4.mp4";
 import thumbnailImage from "../Assets/Projects/thumb1.png"; // Gambar thumbnail
 import thumb2 from "../Assets/Projects/thumb2.png";
+import thumb3 from "../Assets/Projects/thumb3.png";
+import thumb4 from "../Assets/Projects/thumb4.png";
 
 function Tutorial() {
   // State untuk modal
@@ -43,16 +47,16 @@ function Tutorial() {
       thumbnail: thumb2,
     },
     {
-      title: "Tabuhan Dasar Jenglong",
+      title: "Tabuhan Saron Sinyur",
       description: "Tutorial tentang cara memainkan Jenglong dengan benar, fokus pada irama dasar dan pemahaman pola pukulan.",
-      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      thumbnail: thumbnailImage,
+      url: video3,
+      thumbnail: thumb3,
     },
     {
-      title: "Tabuhan Dasar Goong",
+      title: "Pola Tabuh Kulu-Kulu Saron",
       description: "Panduan langkah demi langkah dalam memainkan Goong, mencakup penggunaan alat pukul dan teknik memperkuat suara.",
-      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      thumbnail: thumbnailImage,
+      url: video4,
+      thumbnail: thumb4,
     },
   ];
 
