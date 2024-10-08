@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import gamelan1 from "../Assets/Projects/gamelan_1.png";
+import gamelan2 from "../Assets/Projects/gamelan_2.png";
 
 function About() {
   return (
@@ -16,7 +18,7 @@ function About() {
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 object-cover rounded-lg"
-          src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+          src={gamelan1}
           alt="Saron"
         />
         <p className="mt-2 text-white text-xs text-neutral-500 dark:text-neutral-300">
@@ -59,7 +61,7 @@ function About() {
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-48 w-48 mt-2 object-cover rounded-lg"
-          src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+          src={gamelan2}
           alt="Saron"
         />
          <p className="mt-2 text-white text-xs text-center text-neutral-500 dark:text-neutral-300 md:text-sm lg:text-base">
