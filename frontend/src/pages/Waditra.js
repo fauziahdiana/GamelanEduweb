@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import saron from "../Assets/Projects/saron.jpg"
-import bonang from "../Assets/Projects/bonang.jpg"
-import goong from "../Assets/Projects/goong.jpg"
-import jengglong from "../Assets/Projects/jengglong.jpg"
+import Saron from "../Assets/Projects/Saron.JPG"
+import Bonang from "../Assets/Projects/Bonang.JPG"
+import Goong from "../Assets/Projects/Goong.JPG"
+import Jengglong from "../Assets/Projects/Jengglong.JPG"
 import penclon from "../Assets/Projects/penclon.jpg"
 
 function Waditra() {
@@ -21,8 +21,8 @@ function Waditra() {
     <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
-          className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
-          src={saron}
+          className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
+          src={Saron}
           alt="Saron"
         />
       </div>
@@ -42,9 +42,9 @@ function Waditra() {
     <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
-          className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
-          src={bonang}
-          alt="Saron"
+          className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
+          src={Bonang}
+          alt="Bonang"
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
@@ -64,9 +64,9 @@ function Waditra() {
     <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
-          className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
-          src={jengglong}
-          alt="Saron"
+          className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
+          src={Jengglong}
+          alt="Jengglong"
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
@@ -83,9 +83,9 @@ function Waditra() {
     <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
-          className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
+          className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
           src={penclon}
-          alt="Saron"
+          alt="Penclon"
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
@@ -103,9 +103,9 @@ function Waditra() {
     <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
-          className="h-48 w-48 mt-2 mb-2 object-cover rounded-lg"
-          src={goong}
-          alt="Saron"
+          className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
+          src={Goong}
+          alt="Goong"
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">

@@ -10,7 +10,7 @@ function Notasi() {
       <div className="max-w-sm mx-auto bg-[#164058] shadow-lg rounded-2xl overflow-hidden mt-1 mb-8">
         <div className="p-2">
           <h2 className="project-heading mb-2 text-white">
-            Notasi <strong className="purple">Lagu</strong>
+            Notasi Lagu
           </h2>
         </div>
       </div>

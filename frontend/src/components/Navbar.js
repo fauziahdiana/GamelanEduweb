@@ -74,12 +74,12 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-                style={{ marginBottom: "2px", marginRight: "5px", fontSize: "20px" }}
+                as={Link}
+                to="/kontak"
+                onClick={() => updateExpanded(false)}
+                style={{ marginBottom: "2px", marginRight: "30px", fontSize: "20px" }}
               >
-              Kontak
+                Kontak
               </Nav.Link>
             </Nav.Item>
           </Nav>

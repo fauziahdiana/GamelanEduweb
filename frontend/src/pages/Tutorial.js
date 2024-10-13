@@ -66,7 +66,7 @@ function Tutorial() {
         <div className="inline-block mx-auto bg-[#164058] shadow-lg rounded-2xl overflow-hidden mt-1 mb-8">
           <div className="p-2">
             <h2 className="project-heading mb-2 text-white">
-              Teknik Tabuhan <strong className="purple">Dasar</strong>
+              Teknik Tabuhan Dasar
             </h2>
           </div>
         </div>

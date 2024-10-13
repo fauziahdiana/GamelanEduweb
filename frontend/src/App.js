@@ -7,6 +7,7 @@ import Waditra from "./pages/Waditra";
 import Jenis from "./pages/JenisGamelan";
 import Notasi from "./pages/Notasi";
 import Tutorial from "./pages/Tutorial";
+import Kontak from "./pages/Kontak";
 import Footer from "./components/Footer";
 import {
   BrowserRouter as Router,
@@ -44,6 +45,7 @@ function App() {
           <Route path="/waditra" element={<Waditra/>} />
           <Route path="/notasi" element={<Notasi/>} />
           <Route path="/tutorial" element={<Tutorial/>} />
+          <Route path="/kontak" element={<Kontak/>} />
         </Routes>
         <Footer />
       </div>
