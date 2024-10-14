@@ -9,8 +9,8 @@ function Home() {
         {/* <Particle /> */}
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15, fontSize: "80px", color: "#F6B51B", fontFamily: "Poppins, sans-serif", fontWeight: "bold" }} className="heading">
+            <Col md={7} className="home-header col-md-8">
+              <h1 style={{ paddingBottom: 15, color: "#F6B51B", fontFamily: "Poppins, sans-serif", fontWeight: "bold" }} className="heading">
                 GAMELAN EDUWEB{" "}
               </h1>
               <h1 className="heading-name">

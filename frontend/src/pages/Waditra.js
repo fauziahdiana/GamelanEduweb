@@ -13,12 +13,12 @@ function Waditra() {
     <div className="w-full max-w-screen-md mx-auto bg-[#164058] shadow-lg rounded-2xl overflow-hidden mt-1 mb-4">
       <div className="p-1">
         <h3 className="project-heading mb-2 text-white">
-          Waditra <strong className="purple">Gamelan Degung</strong>
+          Waditra Gamelan Degung
         </h3>
       </div>
     </div>
     
-    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
@@ -27,7 +27,7 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-yellow-500">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500">
           Saron
         </h5>
         <p className="mb-4 text-base text-white dark:text-white">
@@ -39,7 +39,7 @@ function Waditra() {
       </div>
     </div>
     
-    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
@@ -48,7 +48,7 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500">
           Bonang
         </h5>
         <p className="mb-4 text-base text-white dark:text-white">
@@ -61,7 +61,7 @@ function Waditra() {
       </div>
     </div>
 
-    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
@@ -70,7 +70,7 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500">
           Jengglong
         </h5>
         <p className="mb-4 text-base text-white dark:text-white">
@@ -80,7 +80,7 @@ function Waditra() {
       </div>
     </div>
 
-    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
@@ -89,7 +89,7 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500">
           Penclon
         </h5>
         <p className="mb-4 text-base text-white dark:text-white">
@@ -100,7 +100,7 @@ function Waditra() {
       </div>
     </div>
 
-    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2">
+    <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2">
       <div className="flex flex-col items-center justify-center w-full md:w-1/3">
         <img
           className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
@@ -109,7 +109,7 @@ function Waditra() {
         />
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-        <h5 className="mb-2 text-xl font-medium text-yellow-500 dark:text-neutral-50">
+        <h5 className="mb-2 text-xl font-medium text-yellow-500">
           Goong
         </h5>
         <p className="mb-4 text-base text-white dark:text-white">

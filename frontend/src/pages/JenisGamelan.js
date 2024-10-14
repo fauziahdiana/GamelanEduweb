@@ -57,7 +57,7 @@ function JenisGamelan() {
 
       {/* Card */}
       {isCardVisible1 && (
-        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2 rounded-xl">
+        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
             {/* <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
               Saron
@@ -87,7 +87,7 @@ function JenisGamelan() {
 
       {/* Card */}
       {isCardVisible2 && (
-        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2 rounded-xl">
+        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
             <p className="mb-4 text-white text-base text-neutral-600 dark:text-neutral-200">
             Gamelan Gedhe atau "Gamelan Besar" adalah ansambel gamelan tradisional yang paling lengkap dan kaya di Jawa Tengah. 
@@ -113,7 +113,7 @@ function JenisGamelan() {
 
       {/* Card */}
       {isCardVisible3 && (
-        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2 rounded-xl">
+        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
             <p className="mb-4 text-white text-base text-neutral-600 dark:text-neutral-200">
             Gamelan Senggani berasal dari Jawa Timur dan digunakan dalam konteks budaya lokal untuk mengiringi tarian atau upacara adat. 
@@ -139,7 +139,7 @@ function JenisGamelan() {
 
       {/* Card */}
       {isCardVisible4 && (
-        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2 rounded-xl">
+        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
             <p className="mb-4 text-white text-base text-neutral-600 dark:text-neutral-200">
             Gamelan Cokekan adalah gamelan yang digunakan di wilayah Betawi, Jakarta, terutama dalam hiburan rakyat atau pertunjukan 
@@ -165,7 +165,7 @@ function JenisGamelan() {
 
       {/* Card */}
       {isCardVisible5 && (
-        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 w-full mb-2 rounded-xl">
+        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
             <p className="mb-4 text-white text-base text-neutral-600 dark:text-neutral-200">
               Gamelan Bebali juga merupakan ansambel gamelan Bali yang memiliki fungsi upacara, namun berbeda dari Gamelan Wali, 

@@ -169,6 +169,7 @@ button:focus {
 
   .navbar-nav .nav-item {
     margin-left: 10px;
+    color: #E8AD21;
   }
 }
 
@@ -188,6 +189,12 @@ button:focus {
   padding: 0.6rem 0.8rem;
   word-spacing: 0.2em; /* Menambah jarak antar kata */
 }
+
+.navbar-nav .nav-link:active, /* Saat tombol diklik */
+.navbar-nav .nav-link:focus { /* Saat tombol fokus setelah diklik */
+  color: #E8AD21;
+}
+
 
 .navbar-nav .nav-item {
   position: relative;
@@ -262,7 +269,7 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 50px !important;
 }
 
 .home-section {
@@ -274,12 +281,13 @@ button:focus {
   background-repeat: no-repeat;
   background-size: cover; /* Menjadikan gambar fit ke kanan dan kiri */
   width: 100%; /* Memastikan lebar elemen full */
+  height: 100%;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 10px !important;
 }
 
 .home-content {
-  padding: 9rem 0 5rem !important;
+  padding: 8rem 0 0 !important;
   color: whitesmoke;
   text-align: left;
 }
