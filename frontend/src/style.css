@@ -221,8 +221,6 @@ button:focus {
 }
 
 
-
-
 /* --------- */
 /* Home section */
 /* --------- */
@@ -459,6 +457,7 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -616,6 +615,7 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
 /* --------- */
 /* Resume */
 /* --------- */

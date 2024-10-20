@@ -18,45 +18,50 @@ function Footer() {
               </Col>
             </Row>
 
-            {/* Baris untuk No.Telepon, Facebook, Instagram */}
+            {/* Baris untuk Telepon dan Facebook (sebelah kanan Telepon) */}
             <Row>
-              <Col md="4" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "10px", paddingTop: "20px", display: "flex", alignItems: "center" }}>
-                <h3 style={{ color: "#F6B51B", fontSize: "25px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaPhone style={{ marginRight: "10px", color: "white" }} /> No.Telepon
+              <Col md="6" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "10px", paddingTop: "20px", display: "flex", alignItems: "center" }}>
+                <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
+                  <FaPhone style={{ marginRight: "10px", color: "white" }} /> 088218271850
                 </h3>
               </Col>
-              <Col md="4" className="footer-copywright" style={{ paddingBottom: "10px", paddingTop: "20px", display: "flex", alignItems: "center" }}>
-                <h3 style={{ color: "#F6B51B", fontSize: "25px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaFacebook style={{ marginRight: "10px", color: "white" }} /> Facebook
-                </h3>
-              </Col>
-              <Col md="4" className="footer-copywright" style={{ paddingBottom: "10px", paddingTop: "20px", display: "flex", alignItems: "center" }}>
-                <h3 style={{ color: "#F6B51B", fontSize: "25px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaInstagram style={{ marginRight: "10px", color: "white" }} /> Instagram
+              <Col md="6" className="footer-copywright" style={{ paddingBottom: "10px", paddingTop: "20px", display: "flex", alignItems: "center" }}>
+                <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
+                  <FaFacebook style={{ marginRight: "10px", color: "white" }} /> gamelanEduWeb.com/
                 </h3>
               </Col>
             </Row>
 
-            {/* Baris untuk Email dan Twitter */}
+            {/* Baris untuk Email (di bawah Telepon) dan Instagram (di sebelah kanan Facebook) */}
             <Row>
-              <Col md="4" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "30px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
-                <h3 style={{ color: "#F6B51B", fontSize: "25px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaEnvelope style={{ marginRight: "10px", color: "white" }} /> Email
+              <Col md="6" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "10px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
+                <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
+                  <FaEnvelope style={{ marginRight: "10px", color: "white" }} /> gamelanEduWeb@gmail.com
                 </h3>
               </Col>
-              <Col md="4" className="footer-copywright" style={{ paddingBottom: "30px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
-                <h3 style={{ color: "#F6B51B", fontSize: "25px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaTwitter style={{ marginRight: "10px", color: "white" }} /> Twitter
+              <Col md="6" className="footer-copywright" style={{ paddingBottom: "10px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
+                <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
+                  <FaInstagram style={{ marginRight: "10px", color: "white" }} /> @tride_edu
+                </h3>
+              </Col>
+            </Row>
+
+            {/* Baris untuk Twitter (di bawah Facebook) */}
+            <Row>
+              <Col md="6" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "30px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
+                <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
+                  <FaTwitter style={{ marginRight: "10px", color: "white" }} /> @gamelanEduWeb
                 </h3>
               </Col>
             </Row>
           </Col>
+
           {/* Kolom 2: Maps */}
           <Col md="6">
             <Row>
               <Col md="12" className="footer-map" style={{ paddingBottom: "10px", paddingTop: "30px", display: "flex", justifyContent: "center" }}>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.1921251576852!2d106.82718341588782!3d-6.175392995525344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e17859ab07%3A0x3a10508c86f543d1!2sMonas!5e0!3m2!1sen!2sid!4v1601234567890!5m2!1sen!2sidhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63352.95180583671!2d106.93000840670774!3d-6.924872399123975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68483288b9fd1f%3A0xc7425b69d2b22634!2sUniversitas%20Muhammadiyah%20Sukabumi!5e0!3m2!1sen!2sid!4v1693896300134!5m2!1sen!2sidhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63352.95180583671!2d106.93000840670774!3d-6.924872399123975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68483288b9fd1f%3A0xc7425b69d2b22634!2sUniversitas%20Muhammadiyah%20Sukabumi!5e0!3m2!1sen!2sid!4v1693896926543!5m2!1sen!2sid"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.1921251576852!2d106.82718341588782!3d-6.175392995525344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e17859ab07%3A0x3a10508c86f543d1!2sMonas!5e0!3m2!1sen!2sid!4v1601234567890!5m2!1sen!2sidhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63352.95180583671!2d106.93000840670774!3d-6.924872399123975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68483288b9fd1f%3A0xc7425b69d2b22634!2sUniversitas%20Muhammadiyah%20Sukabumi!5e0!3m2!1sen!2sid"
                   width="80%"
                   height="300"
                   style={{ border: "0" }}
