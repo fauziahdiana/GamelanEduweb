@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Container, Modal } from "react-bootstrap";
-import catrik from "../Assets/Projects/panerus_catrik.png";
-import saron from "../Assets/Projects/saron_catrik.png";
-import jenglong from "../Assets/Projects/jenglong_catrik.png";
-import pangkat from "../Assets/Projects/bonang_pangkat.png";
-import tabuhan from "../Assets/Projects/tabuhan_bonang.png";
+import puspajala from "../Assets/Projects/puspajala.png";
+import sinyur from "../Assets/Projects/sinyur.png";
+import jenglong from "../Assets/Projects/sinyur_jenglong.png";
+import bonang from "../Assets/Projects/bonang_sinyur.png";
 
-function CatrikPage() {
+function LaguAgeung() {
   const [showModal, setShowModal] = useState(false);
   const [selectedVideo, setSelectedVideo] = useState("");
   const [selectedTitle, setSelectedTitle] = useState("");
@@ -25,29 +24,24 @@ function CatrikPage() {
 
   const videos = [
     {
-      title: "Tabuhan Panerus Catrik",
-      url: "https://www.youtube.com/embed/n7Ue5sv6i6A?si=fHZFOg59SKNrLW--",
-      thumbnail: catrik,
+      title: "Tabuhan Panerus Sinyur (Puspajala)",
+      url: "https://www.youtube.com/embed/cjgb43S3PEE?si=l6UGRaBv0RLqWcC2",
+      thumbnail: puspajala,
     },
     {
-      title: "Tabuhan Saron Catrik",
-      url: "https://www.youtube.com/embed/eov8GxPfIVM?si=VpfYEhYcMhxfsyL6",
-      thumbnail: saron,
+      title: "Tabuhan Saron Sinyur",
+      url: "https://www.youtube.com/embed/u3y-s6QORqo?si=NcqdH-lyZ7n0jjco",
+      thumbnail: sinyur,
     },
     {
-      title: "Tabuhan Jenglong Catrik",
-      url: "https://www.youtube.com/embed/ENr-Op71lbE?si=yumuGqp-njZY6MLV",
+      title: "Tabuhan Jenglong Sinyur (Puspajala)",
+      url: "https://www.youtube.com/embed/J8nNtsj9cLk?si=3ImOmYg6WQzQM0Il",
       thumbnail: jenglong,
     },
     {
-      title: "Pangkat Tabuhan Catrik (Bonang)",
-      url: "https://www.youtube.com/embed/Vt_RqVlu_NI?si=TqYH2rZcgaPlRSzE",
-      thumbnail: pangkat,
-    },
-    {
-      title: "Tabuhan Bonang Catrik",
-      url: "https://www.youtube.com/embed/B4oT8joBuKs?si=WmeIobaVIGiRjb4f",
-      thumbnail: tabuhan,
+      title: "Tabuhan Bonang Sinyur (Puspajala)",
+      url: "https://www.youtube.com/embed/COh1437Ppq0?si=f09qvZwIPUXSLgVg",
+      thumbnail: bonang,
     },
   ];
 
@@ -56,13 +50,15 @@ function CatrikPage() {
       <Container>
         <div className="flex flex-col md:flex-row justify-center items-center rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-8">
           <div className="p-2 text-center">
-            <h2 className="project-heading mb-2 text-white">Teknik Tabuhan Lagu - Catrik</h2>
+            <h2 className="project-heading mb-2 text-white">Tabuhan Lagu Ageung - Galatik Mangut</h2>
           </div>
         </div>
         
         {/* Row of videos arranged in 2x2 grid */}
-        <div className="grid grid-cols-2 gap-4 relative">
+        <div className="grid grid-cols-2 gap-4">
+          {/* Column 1: Video 1 on top of Video 3 */}
           <div className="flex flex-col gap-4">
+            {/* Video 1 */}
             <div
               className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[0].url, videos[0].title)}
@@ -91,6 +87,7 @@ function CatrikPage() {
               </div>
             </div>
 
+            {/* Video 3 */}
             <div
               className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[2].url, videos[2].title)}
@@ -118,37 +115,11 @@ function CatrikPage() {
                 <h3 className="text-xl font-semibold">{videos[2].title}</h3>
               </div>
             </div>
-
-            <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
-              onClick={() => handleShow(videos[4].url, videos[4].title)}
-            >
-              <div className="relative">
-                <img
-                  src={videos[4].thumbnail}
-                  alt={`Thumbnail ${videos[4].title}`}
-                  className="w-48 h-28 object-cover"
-                />
-                <div className="absolute inset-0 flex justify-center items-center">
-                  <div className="bg-gray-800 bg-opacity-75 p-2 rounded-full">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-10 w-10 text-white"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M3 22v-20l18 10-18 10z" />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <div className="p-4 text-white flex-1">
-                <h3 className="text-xl font-semibold">{videos[4].title}</h3>
-              </div>
-            </div>
           </div>
 
+          {/* Column 2: Video 2 on top of Video 4 */}
           <div className="flex flex-col gap-4">
+            {/* Video 2 */}
             <div
               className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[1].url, videos[1].title)}
@@ -177,6 +148,7 @@ function CatrikPage() {
               </div>
             </div>
 
+            {/* Video 4 */}
             <div
               className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[3].url, videos[3].title)}
@@ -205,7 +177,6 @@ function CatrikPage() {
               </div>
             </div>
           </div>
-
           {/* Close button placed in a new row after the last grid item */}
           <div className="col-span-2 flex justify-end p-4">
             <button
@@ -217,24 +188,53 @@ function CatrikPage() {
           </div>
         </div>
 
-        {/* Modal */}
+        {/* Modal to play video */}
         <Modal show={showModal} onHide={handleClose} centered size="lg">
-          <Modal.Header closeButton>
-            <Modal.Title>{selectedTitle}</Modal.Title>
+          <Modal.Header
+            style={{
+              backgroundColor: "#1a4d6b", // Set the background to blue
+              display: "flex",
+              justifyContent: "center", // Center the content inside header
+              position: "relative", // Allow positioning the close button
+            }}
+          >
+            <Modal.Title
+              style={{ textAlign: "center", color: "#F6B51B", flex: 1 }}
+            >
+              {selectedTitle}
+            </Modal.Title>
           </Modal.Header>
-          <Modal.Body className="embed-responsive embed-responsive-16by9">
-            <iframe
-              className="embed-responsive-item w-full h-96"
-              src={selectedVideo}
-              title={selectedTitle}
-              frameBorder="0"
-              allowFullScreen
-            ></iframe>
+          <Modal.Body>
+            {selectedVideo && selectedVideo.includes("youtube.com") ? (
+              <div className="ratio ratio-16x9 mb-4">
+                <iframe
+                  src={selectedVideo}
+                  title={selectedTitle}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  style={{ width: "100%", height: "100%" }}
+                ></iframe>
+              </div>
+            ) : (
+              <video controls style={{ width: "100%" }} className="mb-4">
+                <source src={selectedVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            )}
           </Modal.Body>
+          <div className="flex items-center bg-[#164058] justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+            <button
+              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-blue-700 hover:text-white"
+              type="button"
+              onClick={handleClose}
+            >
+              Kembali
+            </button>
+          </div>
         </Modal>
       </Container>
     </Container>
   );
 }
 
-export default CatrikPage;
+export default LaguAgeung;

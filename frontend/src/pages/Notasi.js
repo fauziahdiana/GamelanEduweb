@@ -122,11 +122,11 @@ function Notasi() {
           </Modal.Body>
           <div className="flex items-center bg-[#164058] justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
             <button
-              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150"
+              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-blue-700 hover:text-white"
               type="button"
               onClick={handleClose}
             >
-              Close
+              Kembali
             </button>
           </div>
         </Modal>

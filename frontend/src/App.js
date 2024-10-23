@@ -11,6 +11,7 @@ import TutorialLagu from "./pages/TutorialLagu";
 import CatrikPage from "./pages/CatrikPage";
 import SinyurPage from "./pages/SinyurPage";
 import KulukuluPage from "./pages/KulukuluPage";
+import LaguAgeung from "./pages/LaguAgeung";
 import Kontak from "./pages/Kontak";
 import Footer from "./components/Footer";
 import {
@@ -53,6 +54,7 @@ function App() {
           <Route path="/catrik-page" element={<CatrikPage/>} />
           <Route path="/sinyur-page" element={<SinyurPage/>} />
           <Route path="/kulukulu-page" element={<KulukuluPage/>} />
+          <Route path="/lagu-ageung" element={<LaguAgeung/>} />
           <Route path="/kontak" element={<Kontak/>} />
         </Routes>
         <Footer />

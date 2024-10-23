@@ -212,7 +212,7 @@ button:focus {
 .navbar-nav .nav-item a::after {
   content: "";
   position: absolute;
-  height: 4px;
+  height: 7px;
   width: 10px;
   border-radius: 8px;
   bottom: 20px;

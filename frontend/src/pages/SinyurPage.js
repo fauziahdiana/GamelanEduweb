@@ -177,6 +177,15 @@ function SinyurPage() {
               </div>
             </div>
           </div>
+          {/* Close button placed in a new row after the last grid item */}
+          <div className="col-span-2 flex justify-end p-4">
+            <button
+              className="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
+              onClick={() => window.history.back()} // Navigate to the previous page
+            >
+              Kembali
+            </button>
+          </div>
         </div>
 
         {/* Modal to play video */}
@@ -215,11 +224,11 @@ function SinyurPage() {
           </Modal.Body>
           <div className="flex items-center bg-[#164058] justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
             <button
-              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150"
+              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-blue-700 hover:text-white"
               type="button"
               onClick={handleClose}
             >
-              Close
+              Kembali
             </button>
           </div>
         </Modal>
