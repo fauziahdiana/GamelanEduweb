@@ -8,7 +8,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         {/* <Particle /> */}
         <Container className="home-content">
-          <Row>
+          <Row className="">
             <Col md={7} className="home-header col-md-8">
               <h1 style={{ paddingBottom: 15, color: "#F6B51B", fontFamily: "Poppins, sans-serif", fontWeight: "bold" }} className="heading">
                 GAMELAN EDUWEB{" "}

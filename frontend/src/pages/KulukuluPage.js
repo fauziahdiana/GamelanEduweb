@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Container, Modal } from "react-bootstrap";
-import thumb1 from "../Assets/Projects/panerus.png";
-import thumb2 from "../Assets/Projects/saron.png";
-import thumb3 from "../Assets/Projects/jenglong.png";
-import thumb4 from "../Assets/Projects/bonang.png";
-import thumb5 from "../Assets/Projects/goong.png";
+import panerus from "../Assets/Projects/kulukulu_panerus.png";
+import saron from "../Assets/Projects/kulukulu.png";
+import jenglong from "../Assets/Projects/kulu_jenglong.png";
+import bonang from "../Assets/Projects/kulu_bonang.png";
 
-function Tutorial() {
+function KulukuluPage() {
   const [showModal, setShowModal] = useState(false);
   const [selectedVideo, setSelectedVideo] = useState("");
   const [selectedTitle, setSelectedTitle] = useState("");
@@ -25,29 +24,24 @@ function Tutorial() {
 
   const videos = [
     {
-      title: "Tabuhan Dasar Panerus",
-      url: "https://www.youtube.com/embed/pQNnNybguCQ?si=GEwe098ljTnKMh2M",
-      thumbnail: thumb1,
+      title: "Tabuhan Panerus Kulu-Kulu (Embat Sawilek)",
+      url: "https://www.youtube.com/embed/DKXmZb4SDXA?si=4t_md4Am0qkqiIgx",
+      thumbnail: panerus,
     },
     {
-      title: "Tabuhan Dasar Saron",
-      url: "https://www.youtube.com/embed/q9AgP47TG2k?si=qxTQSi9hjkW8KAKP",
-      thumbnail: thumb2,
+      title: "Tabuhan Saron Kulu-Kulu",
+      url: "https://www.youtube.com/embed/YmYtm-aKQw4?si=SD22QnJ5d0FkUU7u",
+      thumbnail: saron,
     },
     {
-      title: "Tabuhan Dasar Jenglong",
-      url: "https://www.youtube.com/embed/2lp_YnKLZdI?si=mjJfgdb-iZ9mRp6o",
-      thumbnail: thumb3,
+      title: "Tabuhan Jenglong Kulu-Kulu",
+      url: "https://www.youtube.com/embed/uydmJfiBFwE?si=B4oyh_K6szSQUqYQ",
+      thumbnail: jenglong,
     },
     {
-      title: "Tabuhan Dasar Bonang",
-      url: "https://www.youtube.com/embed/BK5_lTssX5A?si=NC4pP9lc9nCSquhI",
-      thumbnail: thumb4,
-    },
-    {
-      title: "Tabuhan Dasar Goong",
-      url: "https://www.youtube.com/embed/dcQLeQL7JhU?si=7Hn93nD61Tig91bw",
-      thumbnail: thumb5,
+      title: "Tabuhan Bonang Kulu-Kulu",
+      url: "https://www.youtube.com/embed/OS4Z2A6dY2M?si=w3Edbrd75eOFsH3O",
+      thumbnail: bonang,
     },
   ];
 
@@ -56,7 +50,7 @@ function Tutorial() {
       <Container>
         <div className="flex flex-col md:flex-row justify-center items-center rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-8">
           <div className="p-2 text-center">
-            <h2 className="project-heading mb-2 text-white">Teknik Tabuhan Dasar</h2>
+            <h2 className="project-heading mb-2 text-white">Teknik Tabuhan Lagu - Kulu-Kulu</h2>
           </div>
         </div>
         
@@ -119,35 +113,6 @@ function Tutorial() {
               </div>
               <div className="p-4 text-white flex-1">
                 <h3 className="text-xl font-semibold">{videos[2].title}</h3>
-              </div>
-            </div>
-
-            {/* Video 5 */}
-            <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
-              onClick={() => handleShow(videos[4].url, videos[4].title)}
-            >
-              <div className="relative">
-                <img
-                  src={videos[4].thumbnail}
-                  alt={`Thumbnail ${videos[4].title}`}
-                  className="w-48 h-28 object-cover"
-                />
-                <div className="absolute inset-0 flex justify-center items-center">
-                  <div className="bg-gray-800 bg-opacity-75 p-2 rounded-full">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-10 w-10 text-white"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M3 22v-20l18 10-18 10z" />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <div className="p-4 text-white flex-1">
-                <h3 className="text-xl font-semibold">{videos[4].title}</h3>
               </div>
             </div>
           </div>
@@ -263,4 +228,4 @@ function Tutorial() {
   );
 }
 
-export default Tutorial;
+export default KulukuluPage;

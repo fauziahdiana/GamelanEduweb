@@ -1,9 +1,58 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import catrik from '../Assets/Projects/catrik1.png';
+import React, { useState } from "react";
+import { Container, Modal } from "react-bootstrap";
+import dasar1 from "../Assets/Projects/POLA TABUHAN DASAR GAMELAN DEGUNG_1.jpg";
+import dasar2 from "../Assets/Projects/POLA TABUHAN DASAR GAMELAN DEGUNG_2.jpg"; // New image for Pola Tabuhan Dasar
+import catrik from "../Assets/Projects/Catrik.jpg";
+import kulukulu from "../Assets/Projects/Kulu-Kulu.jpg";
+import sinyur from "../Assets/Projects/Sinyur.jpg";
 
 function Notasi() {
-  const [showModal, setShowModal] = React.useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+
+  const images = [
+    {
+      title: "Notasi 1 - Pola Tabuhan Dasar Gamelan Degung",
+      urls: [dasar1, dasar2], // Two images for this item
+    },
+    {
+      title: "Notasi 2 - Tabuhan Catrik",
+      urls: [catrik], // Only one image for this item
+    },
+    {
+      title: "Notasi 3 - Tabuhan Kulu-Kulu",
+      urls: [kulukulu],
+    },
+    {
+      title: "Notasi 4 - Tabuhan Puspa Jala (Sinyur)",
+      urls: [sinyur],
+    },
+  ];
+
+  const handleShow = (index) => {
+    setSelectedIndex(index);
+    setSelectedImageIndex(0); // Reset to the first image
+    setShowModal(true);
+  };
+
+  const handleClose = () => {
+    setShowModal(false);
+    setSelectedIndex(0);
+    setSelectedImageIndex(0);
+  };
+
+  const handleNext = () => {
+    if (selectedImageIndex < images[selectedIndex].urls.length - 1) {
+      setSelectedImageIndex(selectedImageIndex + 1);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (selectedImageIndex > 0) {
+      setSelectedImageIndex(selectedImageIndex - 1);
+    }
+  };
 
   return (
     <Container fluid className="about-section">
@@ -13,60 +62,74 @@ function Notasi() {
             <h2 className="project-heading mb-2 text-white">Notasi</h2>
           </div>
         </div>
-
-        {/* Button to open modal */}
-        <button
-          className="bg-[#164058] rounded-full text-white active:bg-[#164058] font-bold uppercase text-sm w-100 h-10 flex items-center justify-center shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-          type="button"
-          onClick={() => setShowModal(true)}
-        >
-          Notasi Lagu 1
-        </button>
-
-        {showModal && (
-          <>
-            {/* Modal (mengikuti layout dari halaman Tutorial) */}
-            <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto">
-              <div className="relative w-auto mx-auto max-w-3xl">
-                {/* Content of Modal */}
-                <div className="bg-white border-0 rounded-lg shadow-lg flex flex-col w-full max-h-screen overflow-y-auto">
-                  {/* Header */}
-                  <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                    <h3 className="text-3xl font-semibold text-black">Notasi Lagu</h3>
-                    <button
-                      className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                      onClick={() => setShowModal(false)}
-                    >
-                      <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                        ×
-                      </span>
-                    </button>
-                  </div>
-                  {/* Body */}
-                  <div className="relative p-6 flex-auto">
-                    <img
-                      src={catrik}
-                      alt="Notasi Lagu"
-                      className="h-auto w-full object-contain"
-                    />
-                  </div>
-                  {/* Footer */}
-                  <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
-                    <button
-                      className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none ease-linear transition-all duration-150"
-                      type="button"
-                      onClick={() => setShowModal(false)}
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
+        {/* Grid layout for images (1 column, 4 rows) */}
+        <div className="grid grid-cols-1 gap-2">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className="bg-transparent hover:bg-transparent transition-colors duration-300 rounded-xl shadow-none flex items-center cursor-pointer px-6 py-2"
+              onClick={() => handleShow(index)}
+            >
+           <div className="p-3 text-white flex-1 text-left bg-[#1a4d6b] rounded-full">
+                <h3 className="text-xl mx-3 mt-2 mb-2 font-semibold">{image.title}</h3>
               </div>
             </div>
-            {/* Overlay (darker background) */}
-            <div className="opacity-50 fixed inset-0 z-40 bg-black"></div>
-          </>
-        )}
+          ))}
+        </div>
+
+        {/* Modal to show enlarged image */}
+        <Modal show={showModal} onHide={handleClose} centered size="lg">
+          <Modal.Header 
+            style={{ 
+              backgroundColor: "#1a4d6b",
+              display: "flex", 
+              justifyContent: "center", 
+              position: "relative" 
+            }}
+          >
+            <Modal.Title style={{ textAlign: "center", color: "#F6B51B", flex: 1 }}>
+              {images[selectedIndex].title}
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body className="text-center relative">
+            <img
+              src={images[selectedIndex].urls[selectedImageIndex]} // Show the current image
+              alt={images[selectedIndex].title}
+              style={{ width: "100%" }}
+            />
+
+            {/* Conditional Previous button */}
+            {selectedImageIndex > 0 && (
+              <button
+                className="text-black bg-transparent font-bold uppercase px-6 py-4 absolute top-1/2 left-0 transform -translate-y-1/2 text-4xl"
+                onClick={handlePrevious}
+                style={{ zIndex: 1 }}
+              >
+                &#10094;
+              </button>
+            )}
+
+            {/* Conditional Next button */}
+            {selectedImageIndex < images[selectedIndex].urls.length - 1 && (
+              <button
+                className="text-black bg-transparent font-bold uppercase px-6 py-4 absolute top-1/2 right-0 transform -translate-y-1/2 text-4xl"
+                onClick={handleNext}
+                style={{ zIndex: 1 }}
+              >
+                &#10095;
+              </button>
+            )}
+          </Modal.Body>
+          <div className="flex items-center bg-[#164058] justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+            <button
+              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150"
+              type="button"
+              onClick={handleClose}
+            >
+              Close
+            </button>
+          </div>
+        </Modal>
       </Container>
     </Container>
   );

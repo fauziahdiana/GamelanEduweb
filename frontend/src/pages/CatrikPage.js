@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Container, Modal } from "react-bootstrap";
-import thumb1 from "../Assets/Projects/panerus.png";
-import thumb2 from "../Assets/Projects/saron.png";
-import thumb3 from "../Assets/Projects/jenglong.png";
-import thumb4 from "../Assets/Projects/bonang.png";
-import thumb5 from "../Assets/Projects/goong.png";
+import catrik from "../Assets/Projects/panerus_catrik.png";
+import saron from "../Assets/Projects/saron_catrik.png";
+import jenglong from "../Assets/Projects/jenglong_catrik.png";
+import pangkat from "../Assets/Projects/bonang_pangkat.png";
+import tabuhan from "../Assets/Projects/tabuhan_bonang.png";
 
-function Tutorial() {
+function CatrikPage() {
   const [showModal, setShowModal] = useState(false);
   const [selectedVideo, setSelectedVideo] = useState("");
   const [selectedTitle, setSelectedTitle] = useState("");
@@ -25,29 +25,29 @@ function Tutorial() {
 
   const videos = [
     {
-      title: "Tabuhan Dasar Panerus",
-      url: "https://www.youtube.com/embed/pQNnNybguCQ?si=GEwe098ljTnKMh2M",
-      thumbnail: thumb1,
+      title: "Tabuhan Panerus Catrik",
+      url: "https://www.youtube.com/embed/n7Ue5sv6i6A?si=fHZFOg59SKNrLW--",
+      thumbnail: catrik,
     },
     {
-      title: "Tabuhan Dasar Saron",
-      url: "https://www.youtube.com/embed/q9AgP47TG2k?si=qxTQSi9hjkW8KAKP",
-      thumbnail: thumb2,
+      title: "Tabuhan Saron Catrik",
+      url: "https://www.youtube.com/embed/eov8GxPfIVM?si=VpfYEhYcMhxfsyL6",
+      thumbnail: saron,
     },
     {
-      title: "Tabuhan Dasar Jenglong",
-      url: "https://www.youtube.com/embed/2lp_YnKLZdI?si=mjJfgdb-iZ9mRp6o",
-      thumbnail: thumb3,
+      title: "Tabuhan Jenglong Catrik",
+      url: "https://www.youtube.com/embed/ENr-Op71lbE?si=yumuGqp-njZY6MLV",
+      thumbnail: jenglong,
     },
     {
-      title: "Tabuhan Dasar Bonang",
-      url: "https://www.youtube.com/embed/BK5_lTssX5A?si=NC4pP9lc9nCSquhI",
-      thumbnail: thumb4,
+      title: "Pangkat Tabuhan Catrik (Bonang)",
+      url: "https://www.youtube.com/embed/Vt_RqVlu_NI?si=TqYH2rZcgaPlRSzE",
+      thumbnail: pangkat,
     },
     {
-      title: "Tabuhan Dasar Goong",
-      url: "https://www.youtube.com/embed/dcQLeQL7JhU?si=7Hn93nD61Tig91bw",
-      thumbnail: thumb5,
+      title: "Tabuhan Bonang Catrik",
+      url: "https://www.youtube.com/embed/B4oT8joBuKs?si=WmeIobaVIGiRjb4f",
+      thumbnail: tabuhan,
     },
   ];
 
@@ -56,7 +56,7 @@ function Tutorial() {
       <Container>
         <div className="flex flex-col md:flex-row justify-center items-center rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-8">
           <div className="p-2 text-center">
-            <h2 className="project-heading mb-2 text-white">Teknik Tabuhan Dasar</h2>
+            <h2 className="project-heading mb-2 text-white">Teknik Tabuhan Lagu - Catrik</h2>
           </div>
         </div>
         
@@ -263,4 +263,4 @@ function Tutorial() {
   );
 }
 
-export default Tutorial;
+export default CatrikPage;

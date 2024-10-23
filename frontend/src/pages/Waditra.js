@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Saron from "../Assets/Projects/Saron.JPG"
 import Bonang from "../Assets/Projects/Bonang.JPG"
 import Goong from "../Assets/Projects/Goong.JPG"
-import Jengglong from "../Assets/Projects/Jengglong.JPG"
-import penclon from "../Assets/Projects/penclon.jpg"
+import Jenglong from "../Assets/Projects/Jengglong.JPG"
 
 function Waditra() {
   return (
@@ -19,7 +18,7 @@ function Waditra() {
       <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2">
         <div className="flex flex-col items-center justify-center w-full md:w-1/3">
           <img
-            className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
+            className="h-90 w-80 mt-2 mb-2 object-cover rounded-lg"
             src={Saron}
             alt="Saron"
           />
@@ -40,7 +39,7 @@ function Waditra() {
       <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2">
         <div className="flex flex-col items-center justify-center w-full md:w-1/3">
           <img
-            className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
+            className="h-90 w-80 mt-2 mb-2 object-cover rounded-lg"
             src={Bonang}
             alt="Bonang"
           />
@@ -63,37 +62,17 @@ function Waditra() {
         <div className="flex flex-col items-center justify-center w-full md:w-1/3">
           <img
             className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
-            src={Jengglong}
-            alt="Jengglong"
+            src={Jenglong}
+            alt="Jenglong"
           />
         </div>
         <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
           <h5 className="mt-3 mb-3 mx-3 text-xl text-yellow-500" style={{fontSize: "30px"}}>
-            Jengglong
+            Jenglong
           </h5>
           <p className="mb-4 mx-3 text-justify text-white dark:text-white" style={{fontSize: "20px"}}>
-          Jengglong adalah waditra berpenclon dibuat dari perunggu, kuningan atau besi yang berdiameter 
+          Jenglong adalah waditra berpenclon dibuat dari perunggu, kuningan atau besi yang berdiameter 
           antara tiga puluh sampai dengan empat puluh centimeter. Dalam suatu ancak atau kakanco terdiri atas enam buah kromong.
-          </p>
-        </div>
-      </div>
-
-      <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2">
-        <div className="flex flex-col items-center justify-center w-full md:w-1/3">
-          <img
-            className="h-40 w-80 mt-2 mb-2 object-cover rounded-lg"
-            src={penclon}
-            alt="Penclon"
-          />
-        </div>
-        <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
-          <h5 className="mt-3 mb-3 mx-3 text-xl text-yellow-500" style={{fontSize: "30px"}}>
-            Penclon
-          </h5>
-          <p className="mb-4 mx-3 text-justify text-white dark:text-white" style={{fontSize: "20px"}}>
-            Penclon pada alat musik jengglong berjumlah enam buah yang terdiri dari nada lima hingga lima 
-            di bawahnya dengan wilayah nada yang lebih rendah dari bonang. Penclon-penclon ini digantung dengan 
-            tali pada penyangga yangmberbentuk tiang gantungan. Soepandi, A (1974) jenglong berfungsi sebagai rangka gending.
           </p>
         </div>
       </div>

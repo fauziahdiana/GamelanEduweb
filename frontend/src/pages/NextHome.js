@@ -1,31 +1,21 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import gamelan1 from "../Assets/Projects/gamelan_1.jpg";
-import gamelan2 from "../Assets/Projects/gamelan_2.jpg";
+import gamelan1 from "../Assets/Projects/gamelan2.png";
+import gamelan2 from "../Assets/Projects/gamelan1.png";
 
 function NextHome() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-      <div className="flex flex-col md:flex-row rounded-lg border border-black shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2">
+      <div className="flex flex-col md:flex-row rounded-lg border border-black shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-5">
       <div className="flex flex-col items-center justify-center w-full md:w-2/3">
         <img
-          className="h-48 w-55 mt-5 object-cover rounded-lg"
+          className="h-70 w-80 mt-5 object-cover rounded-lg"
           src={gamelan1}
-          alt="Saron"
+          alt="Gamelan1"
         />
         <p className="mt-3 mb-5 mx-8 text-center" style={{color: "#164058", fontSize: "15px"}}>
-          (Sumber :{" "}
-          <a
-            href="https://www.askara.co/read/2021/09/01/21208/nang-ning-nung-neng-gung"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-            style={{color: "#164058"}}
-          >
-            https://www.askara.co/read/2021/09/01/21208/nang-ning-nung-neng-gung
-          </a>
-          )
+          Sumber: (Dokumentasi Pribadi)
         </p>
       </div>
       <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-3/3">
@@ -57,22 +47,12 @@ function NextHome() {
       </div>
       <div className="flex flex-col items-center justify-center w-full md:w-2/3">
         <img
-          className="h-55 w-96 mt-2 object-cover rounded-lg"
+          className="h-55 w-96 mt-4 object-cover rounded-lg"
           src={gamelan2}
-          alt="Saron"
+          alt="Gamelan2"
         />
-        <p className="mt-3 mb-5 mx-8" style={{color: "#164058", fontSize: "15px"}}>
-          (Sumber :{" "}
-          <a
-            href="https://id.wikipedia.org/wiki/Gamelan_Jawa"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-            style={{color: "#164058"}}
-          >
-            https://id.wikipedia.org/wiki/Gamelan_Jawa
-          </a>
-          )
+        <p className="mt-3 mb-2 mx-8" style={{color: "#164058", fontSize: "15px"}}>
+          Sumber: (Dokumentasi Pribadi)
         </p>
       </div>
     </div>
