@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaEnvelope, FaFacebook, FaInstagram, FaPhone, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaInstagram, FaPhone, FaTwitter, FaMapPin } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -48,9 +48,18 @@ function Footer() {
 
             {/* Baris untuk Twitter (di bawah Facebook) */}
             <Row>
-              <Col md="6" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "30px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
+              <Col md="6" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "10px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
                 <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
                   <FaTwitter style={{ marginRight: "10px", color: "white" }} /> @gamelanEduWeb
+                </h3>
+              </Col>
+            </Row>
+
+            {/* Baris untuk Alamat dengan seluruh lebar */}
+            <Row>
+              <Col md="12" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "10px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
+                <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
+                  <FaMapPin style={{ marginRight: "10px", color: "white" }} /> Jl. R.Syamsudin,S.H. No. 50, Cikole, Kec.Cikole, Kota Sukabumi, Jawa Barat 43113
                 </h3>
               </Col>
             </Row>
