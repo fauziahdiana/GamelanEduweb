@@ -66,7 +66,7 @@ function Tutorial() {
           <div className="flex flex-col gap-4">
             {/* Video 1 */}
             <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              className="bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[0].url, videos[0].title)}
             >
               <div className="relative">
@@ -95,7 +95,7 @@ function Tutorial() {
 
             {/* Video 3 */}
             <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              className="bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[2].url, videos[2].title)}
             >
               <div className="relative">
@@ -124,7 +124,7 @@ function Tutorial() {
 
             {/* Video 5 */}
             <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              className="bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[4].url, videos[4].title)}
             >
               <div className="relative">
@@ -250,7 +250,7 @@ function Tutorial() {
           </Modal.Body>
           <div className="flex items-center bg-[#164058] justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
           <button
-              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-blue-700 hover:text-white"
+              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-[#C28E16] hover:text-white"
               type="button"
               onClick={handleClose}
             >

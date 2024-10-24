@@ -73,10 +73,10 @@ function Notasi() {
           {images.map((image, index) => (
             <div
               key={index}
-              className="bg-transparent hover:bg-transparent transition-colors duration-300 rounded-xl shadow-none flex items-center cursor-pointer px-6 py-2"
+              className="bg-transparent hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-none flex items-center cursor-pointer px-6 py-2"
               onClick={() => handleShow(index)}
             >
-           <div className="p-3 text-white flex-1 text-left bg-[#1a4d6b] rounded-full">
+              <div className="p-3 text-white flex-1 text-left bg-[#1a4d6b] hover:bg-[#C28E16] rounded-full">
                 <h3 className="text-xl mx-3 mt-2 mb-2 font-semibold">{image.title}</h3>
               </div>
             </div>
@@ -128,7 +128,7 @@ function Notasi() {
           </Modal.Body>
           <div className="flex items-center bg-[#164058] justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
             <button
-              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-blue-700 hover:text-white"
+              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-[#C28E16] hover:text-white"
               type="button"
               onClick={handleClose}
             >

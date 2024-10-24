@@ -46,7 +46,7 @@ function JenisGamelan() {
       {/* Dropdown Button */}
       <button
         onClick={toggleCardVisibility1}
-        className="w-full mb-2 p-3 bg-[#164058] text-white rounded-lg flex items-center justify-between focus:outline-none"
+        className="w-full mb-2 p-3 bg-[#164058] hover:bg-[#C28E16] text-white rounded-lg flex items-center justify-between focus:outline-none"
       >
         <span
           className={`text-left ml-4 ${isCardVisible1 ? 'text-yellow-500' : 'text-white'}`}
@@ -62,22 +62,17 @@ function JenisGamelan() {
         <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full">
             <p className="mt-4 mb-4 text-white text-justify text-neutral-600 dark:text-neutral-200" style={{fontSize: "20px"}}>
-            Dalam kebudayaan Sunda, Degung berasal dari istilah “ngadeg” dan “agung” yang dalam bahasa Indonesia
-            bisa diartikan dengan kata berdiri dan
-            megah. Dalam bahasa Indonesia, kedua
-            kata itu bersama-sama membentuk kata
-            pangagung, yang berarti "bangsawan" atau "Menak." Orang Sunda percaya bahwa Degung adalah musik kerajaan
-            atau Kadaleman karena memiliki arti yang sama dengan seni yang
-            dimaksudkan mencerminkan keagungan
-            dan martabat bangsawan. Pernyataan lain menyatakan bahwa Degung berasal dari istilah "Deg Ngadeg Kanu Agung" yang
-            berarti harus selalu menghadapi dan
-            menyembah Tuhan Yang Mahakuasa.
-            Ada asumsi lain sementara orang-orang
-            bahwa kata degung berasal dari kata
-            "ratu-agung" atau "tumenggung", seperti
-            yang dikatakan bahwa Gamelan Degung
-            sangat populer di kalangan pejabat pada
-            waktu itu, misalnya Bandung Regent R.A.A. WIRANATAKUSUMA adalah salah satu yang sangat menyukai pejabat-pejabat (Herawan, 2009).
+              Dalam kebudayaan Sunda, Degung berasal dari istilah “ngadeg” dan “agung” yang dalam bahasa Indonesia bisa
+              diartikan dengan kata berdiri dan megah. Dalam bahasa Indonesia, kedua kata itu bersama-sama membentuk kata
+              pangagung, yang berarti "bangsawan" atau "Menak." Orang Sunda percaya bahwa Degung adalah musik kerajaan
+              atau Kadaleman karena memiliki arti yang sama dengan seni yang dimaksudkan mencerminkan keagungan dan martabat 
+              bangsawan. Pernyataan lain menyatakan bahwa Degung berasal dari istilah "Deg Ngadeg Kanu Agung" yang berarti harus 
+              selalu menghadapi dan menyembah Tuhan Yang Mahakuasa. Ada asumsi lain sementara orang-orang bahwa kata degung 
+              berasal dari kata "ratu-agung" atau "tumenggung", seperti yang dikatakan bahwa Gamelan Degung sangat populer di 
+              kalangan pejabat pada waktu itu, misalnya Bandung Regent R.A.A. WIRANATAKUSUMA adalah salah satu yang sangat 
+              menyukai pejabat-pejabat (Herawan, 2009).
+            <br></br>
+            <br></br>Sumber: Pupu Maspuroh dkk, Jurnal Artefak Vol.10 No.2 September 2023
             </p>
           </div>
         </div>
@@ -86,7 +81,7 @@ function JenisGamelan() {
       {/* Dropdown Button */}
       <button
         onClick={toggleCardVisibility2}
-        className="w-full mb-2 p-3 bg-[#164058] text-white rounded-lg flex items-center justify-between focus:outline-none"
+        className="w-full mb-2 p-3 bg-[#164058] hover:bg-[#C28E16] text-white rounded-lg flex items-center justify-between focus:outline-none"
       >
         <span
           className={`text-left ml-4 ${isCardVisible2 ? 'text-yellow-500' : 'text-white'}`}
@@ -102,10 +97,12 @@ function JenisGamelan() {
         <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full">
             <p className="mt-4 mb-4 text-white text-justify text-neutral-600 dark:text-neutral-200" style={{fontSize: "20px"}}>
-              Gamelan Gedhe atau "Gamelan Besar" adalah ansambel gamelan tradisional yang paling lengkap dan kaya di 
-              Jawa Tengah. Gamelan ini biasanya digunakan untuk pertunjukan wayang, tari, dan upacara keraton. Terdiri 
-              dari berbagai instrumen seperti gong, kenong, saron, bonang, gambang, gender, dan rebab, Gamelan Gedhe 
-              menghasilkan suara yang kompleks dan megah.
+              Nama gamelan berasal dari kata “gamel” yang dalam bahasa Jawa berarti memukul atau menabuh, sedangkan akhiran 
+              “an” merujuk pada kata benda (Asnawa,2007). Oleh karena itu, gamelan merupakan suatu aktivitas menabuh yang 
+              dilakukan oleh orang zaman dahulu yang kemudian menjadi nama alat musik ansambel. Gamelan Jawa memiliki penyajian 
+              dengan pelarasan salendro dan pelog. Sedangkan, Jawa Tengah merupakan perujukan pada nama daerah berasal. 
+            <br></br>
+            <br></br>Jadi secara harfiah, gamelan Jawa Tengah berarti: sepenuhnya alat musik tradisional yang dimainkan dengan cara dipukul atau ditabuh di provinsi Jawa Tengah
             </p>
           </div>
         </div>
@@ -114,7 +111,7 @@ function JenisGamelan() {
       {/* Dropdown Button */}
       <button
         onClick={toggleCardVisibility3}
-        className="w-full mb-2 p-3 bg-[#164058] text-white rounded-lg flex items-center justify-between focus:outline-none"
+        className="w-full mb-2 p-3 bg-[#164058] hover:bg-[#C28E16] text-white rounded-lg flex items-center justify-between focus:outline-none"
       >
         <span
           className={`text-left ml-4 ${isCardVisible3 ? 'text-yellow-500' : 'text-white'}`}
@@ -130,9 +127,17 @@ function JenisGamelan() {
         <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full">
             <p className="mt-4 mb-4 text-white text-justify text-neutral-600 dark:text-neutral-200" style={{fontSize: "20px"}}>
-              Gamelan Senggani berasal dari Jawa Timur dan digunakan dalam konteks budaya lokal untuk mengiringi tarian atau
-              upacara adat. Musiknya cenderung memiliki ritme yang dinamis dan tempo yang lebih cepat, dengan instrumen khas 
-              seperti saron, bonang, kenong, dan kendang yang menciptakan suasana yang energik dan penuh semangat.
+              Gamelan Jawa Timur adalah ensembel musik tradisional yang berasal dari wilayah Jawa Timur, Indonesia. Musik 
+              gamelan di Jawa Timur sering kali menyertakan campuran repertoar dan gaya permainan lokal dengan gaya Surakarta. 
+              Namun, ada beberapa perbedaan khas, seperti penggunaan kempul yang lebih sering dibandingkan kenong, serta 
+              struktur gong yang mirip dengan gending Jawa Tengah tetapi dengan variasi lokal.
+            <br></br>
+              Karena keanekaragaman dan berkembangnya kebudayaan sehingga gamelan terdapat di beberapa wilayah seperti 
+              Jawa, Bali, dan Bugis. Gamelan khususnya di Jawa berhubungan erat dengan perkembangan religius yang dianutnya 
+              (Iswara, 2017:3). Menurut Wiratama (2021:6) mempelajari keanekaragaman suku dan budaya di Indonesia berarti 
+              memahami bahwa Indonesia terbentuk dari sikap sosial yang baik dari pendiri bangsa.
+            <br></br>
+            <br></br> Sumber: Kristianto kurnia putra, Heru Budianto, Agus Budianto, Semendikjar 5, 2022.
             </p>
           </div>
         </div>
@@ -144,7 +149,7 @@ function JenisGamelan() {
       {/* Dropdown Button */}
       <button
         onClick={toggleCardVisibility5}
-        className="w-full mb-2 p-3 bg-[#164058] text-white rounded-lg flex items-center justify-between focus:outline-none"
+        className="w-full mb-2 p-3 bg-[#164058] hover:bg-[#C28E16] text-white rounded-lg flex items-center justify-between focus:outline-none"
       >
         <span
           className={`text-left ml-4 ${isCardVisible5 ? 'text-yellow-500' : 'text-white'}`}
@@ -160,10 +165,19 @@ function JenisGamelan() {
         <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full">
             <p className="mt-4 mb-4 text-white text-justify text-neutral-600 dark:text-neutral-200" style={{fontSize: "20px"}}>
-              Gamelan Bebali juga merupakan ansambel gamelan Bali yang memiliki fungsi upacara, namun berbeda dari Gamelan Wali,
-              Gamelan Bebali digunakan dalam upacara yang melibatkan pertunjukan seni, seperti tari-tarian sakral atau drama 
-              tari topeng. Musik yang dihasilkan lebih kompleks dan kadang-kadang dimainkan untuk mengiringi pertunjukan yang 
-              memiliki nilai budaya dan sejarah, seperti upacara odalan yang lebih besar.
+              Gamelan Bali sudah ada sejak abad ke-15, dengan awal mula gamelan gambang yang menjadi bagian dari gamelan wayah. 
+              Gamelan Bali bukan hanya sekedar musik tradisional, namun juga memiliki nilai-nilai spiritual dan estetika yang 
+              melekat. Konsep estetika Hindu yang meliputi kesucian (shiwam), kebenaran (satyam), dan keseimbangan (sundaram) 
+              sangat melekat dalam gamelan Bali. Unsur filsafat, etika, dan estetika ini tercermin dalam proses pembuatannya, 
+              pengaturan bunyi, dan simbol-simbol dewa yang terkait dengan tiap instrumen bilah pisau.
+              <br></br>
+              Gamelan Bali adalah jenis musik tradisional Indonesia yang terkenal dengan ritme cepat dan bunyi yang 
+              meledak-ledak. Berbeda dengan gamelan Jawa, gamelan Bali memiliki ciri khas instrumen seperti ceng-ceng 
+              (sejenis simbal kecil) yang memberikan karakter dinamis. Terdapat berbagai jenis gamelan, termasuk gamelan 
+              perunggu dan bambu, serta dibagi menjadi tiga kelompok berdasarkan zaman: wayah (tua), madya , dan anyar (baru).
+              Gamelan Bali merupakan salah satu intrument musik Indonesia dengan kearifan lokal dan kental. Menurut Rukzzolangan 
+              gamelan diartikan sebagai kelompok instrumen musik yang dimainkan  secara sepatu dalam sebuah kelompok 
+              (Ariani dan Sukmayanti, 2013)
             </p>
           </div>
         </div>  

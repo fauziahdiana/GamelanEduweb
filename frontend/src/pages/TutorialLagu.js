@@ -21,7 +21,7 @@ function Tutorial() {
         <div className="grid grid-cols-2 gap-4 mb-4">
           {/* Button 1 */}
           <div
-            className="flex items-center bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md cursor-pointer p-4"
+            className="flex items-center bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md cursor-pointer p-4"
             onClick={() => handleNavigate("/catrik-page")}
           >
             <FaFolder className="h-10 w-10 text-white mr-2" />
@@ -30,7 +30,7 @@ function Tutorial() {
 
           {/* Button 2 */}
           <div
-            className="flex items-center bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md cursor-pointer p-4"
+            className="flex items-center bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md cursor-pointer p-4"
             onClick={() => handleNavigate("/sinyur-page")}
           >
             <FaFolder className="h-10 w-10 text-white mr-2" />
@@ -39,7 +39,7 @@ function Tutorial() {
 
           {/* Button 3 */}
           <div
-            className="flex items-center bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md cursor-pointer p-4"
+            className="flex items-center bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md cursor-pointer p-4"
             onClick={() => handleNavigate("/kulukulu-page")}
           >
             <FaFolder className="h-10 w-10 text-white mr-2" />

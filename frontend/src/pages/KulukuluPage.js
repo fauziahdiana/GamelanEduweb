@@ -60,7 +60,7 @@ function KulukuluPage() {
           <div className="flex flex-col gap-4">
             {/* Video 1 */}
             <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              className="bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[0].url, videos[0].title)}
             >
               <div className="relative">
@@ -89,7 +89,7 @@ function KulukuluPage() {
 
             {/* Video 3 */}
             <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              className="bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[2].url, videos[2].title)}
             >
               <div className="relative">
@@ -121,7 +121,7 @@ function KulukuluPage() {
           <div className="flex flex-col gap-4">
             {/* Video 2 */}
             <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              className="bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[1].url, videos[1].title)}
             >
               <div className="relative">
@@ -150,7 +150,7 @@ function KulukuluPage() {
 
             {/* Video 4 */}
             <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              className="bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[3].url, videos[3].title)}
             >
               <div className="relative">
@@ -180,7 +180,7 @@ function KulukuluPage() {
           {/* Close button placed in a new row after the last grid item */}
           <div className="col-span-2 flex justify-end p-4">
             <button
-              className="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
+              className="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-[#C28E16]"
               onClick={() => window.history.back()} // Navigate to the previous page
             >
               Kembali
@@ -224,7 +224,7 @@ function KulukuluPage() {
           </Modal.Body>
           <div className="flex items-center bg-[#164058] justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
             <button
-              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-blue-700 hover:text-white"
+              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-[#C28E16] hover:text-white"
               type="button"
               onClick={handleClose}
             >
