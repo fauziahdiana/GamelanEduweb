@@ -68,16 +68,8 @@ function Footer() {
           {/* Kolom 2: Maps */}
           <Col md="6">
             <Row>
-              <Col md="12" className="footer-map" style={{ paddingBottom: "10px", paddingTop: "30px", display: "flex", justifyContent: "center" }}>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.1921251576852!2d106.82718341588782!3d-6.175392995525344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e17859ab07%3A0x3a10508c86f543d1!2sMonas!5e0!3m2!1sen!2sid!4v1601234567890!5m2!1sen!2sidhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63352.95180583671!2d106.93000840670774!3d-6.924872399123975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68483288b9fd1f%3A0xc7425b69d2b22634!2sUniversitas%20Muhammadiyah%20Sukabumi!5e0!3m2!1sen!2sid"
-                  width="80%"
-                  height="300"
-                  style={{ border: "0" }}
-                  allowFullScreen=""
-                  aria-hidden="false"
-                  tabIndex="0">
-                </iframe>
+              <Col md="12" className="footer-map" style={{ paddingBottom: "30px", paddingTop: "30px", display: "flex", justifyContent: "center" }}>
+              <iframe class="gmap_iframe" height="120%" width="65%" frameborder="0" scrolling="no"  src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=en&amp;q=Jl. Raya Rambay No.7, Sukamanah, Kec. Cisaat, Kabupaten Sukabumi, Jawa Barat 43152&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
               </Col>
             </Row>
             <Row>

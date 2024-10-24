@@ -101,7 +101,6 @@ function JenisGamelan() {
               “an” merujuk pada kata benda (Asnawa,2007). Oleh karena itu, gamelan merupakan suatu aktivitas menabuh yang 
               dilakukan oleh orang zaman dahulu yang kemudian menjadi nama alat musik ansambel. Gamelan Jawa memiliki penyajian 
               dengan pelarasan salendro dan pelog. Sedangkan, Jawa Tengah merupakan perujukan pada nama daerah berasal. 
-            <br></br>
             <br></br>Jadi secara harfiah, gamelan Jawa Tengah berarti: sepenuhnya alat musik tradisional yang dimainkan dengan cara dipukul atau ditabuh di provinsi Jawa Tengah
             </p>
           </div>
