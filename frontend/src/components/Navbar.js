@@ -47,13 +47,45 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-            <NavDropdown style={{ color: "#E8AD21", marginBottom: "2px", marginRight: "50px", fontSize: "20px" }} title="Tentang" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/sejarah" onClick={() => updateExpanded(false)} >Sejarah</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/jenis" onClick={() => updateExpanded(false)}>Jenis Gamelan</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/waditra" onClick={() => updateExpanded(false)}>Waditra</NavDropdown.Item>
-            </NavDropdown>
+              <NavDropdown 
+                style={{ color: "#E8AD21", marginBottom: "2px", marginRight: "50px", fontSize: "20px" }} 
+                title="Tentang" 
+                id="basic-nav-dropdown"
+              >
+                <NavDropdown.Item 
+                  as={Link} 
+                  to="/sejarah" 
+                  onClick={() => updateExpanded(false)} 
+                  style={{ color: "#000", padding: "10px 20px" }} 
+                  onMouseEnter={(e) => e.target.style.color = "#E8AD21"} 
+                  onMouseLeave={(e) => e.target.style.color = "#000"}
+                >
+                  Sejarah
+                </NavDropdown.Item>
+                
+                <NavDropdown.Item 
+                  as={Link} 
+                  to="/jenis" 
+                  onClick={() => updateExpanded(false)} 
+                  style={{ color: "#000", padding: "10px 20px" }} 
+                  onMouseEnter={(e) => e.target.style.color = "#E8AD21"} 
+                  onMouseLeave={(e) => e.target.style.color = "#000"}
+                >
+                  Jenis Gamelan
+                </NavDropdown.Item>
+                
+                <NavDropdown.Item 
+                  as={Link} 
+                  to="/waditra" 
+                  onClick={() => updateExpanded(false)} 
+                  style={{ color: "#000", padding: "10px 20px" }} 
+                  onMouseEnter={(e) => e.target.style.color = "#E8AD21"} 
+                  onMouseLeave={(e) => e.target.style.color = "#000"}
+                >
+                  Waditra
+                </NavDropdown.Item>
+              </NavDropdown>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -66,11 +98,44 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-            <NavDropdown style={{ marginBottom: "2px", marginRight: "50px", fontSize: "20px" }} title="Tutorial" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/tutorial" onClick={() => updateExpanded(false)} >Teknik Tabuhan Dasar</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/tutorial-lagu" onClick={() => updateExpanded(false)}>Teknik Tabuhan Lagu Salancaran</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/tutorial-ageung" onClick={() => updateExpanded(false)}>Teknik Tabuhan Lagu Ageung</NavDropdown.Item>
-            </NavDropdown>
+              <NavDropdown 
+                style={{ marginBottom: "2px", marginRight: "50px", fontSize: "20px" }} 
+                title="Tutorial" 
+                id="basic-nav-dropdown"
+              >
+                <NavDropdown.Item 
+                  as={Link} 
+                  to="/tutorial" 
+                  onClick={() => updateExpanded(false)} 
+                  style={{ color: "#000", padding: "10px 20px" }} 
+                  onMouseEnter={(e) => e.target.style.color = "#E8AD21"} 
+                  onMouseLeave={(e) => e.target.style.color = "#000"}
+                >
+                  Teknik Tabuhan Dasar
+                </NavDropdown.Item>
+
+                <NavDropdown.Item 
+                  as={Link} 
+                  to="/tutorial-lagu" 
+                  onClick={() => updateExpanded(false)} 
+                  style={{ color: "#000", padding: "10px 20px" }} 
+                  onMouseEnter={(e) => e.target.style.color = "#E8AD21"} 
+                  onMouseLeave={(e) => e.target.style.color = "#000"}
+                >
+                  Teknik Tabuhan Lagu Salancaran
+                </NavDropdown.Item>
+
+                <NavDropdown.Item 
+                  as={Link} 
+                  to="/tutorial-ageung" 
+                  onClick={() => updateExpanded(false)} 
+                  style={{ color: "#000", padding: "10px 20px" }} 
+                  onMouseEnter={(e) => e.target.style.color = "#E8AD21"} 
+                  onMouseLeave={(e) => e.target.style.color = "#000"}
+                >
+                  Teknik Tabuhan Lagu Ageung
+                </NavDropdown.Item>
+              </NavDropdown>
             </Nav.Item>
 
             <Nav.Item>
