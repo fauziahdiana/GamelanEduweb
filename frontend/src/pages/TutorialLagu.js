@@ -52,7 +52,7 @@ function Tutorial() {
             onClick={() => handleNavigate("/lagu-ageung")}
           >
             <FaFolder className="h-10 w-10 text-white mr-2" />
-            <span className="text-white font-semibold">Tabuhan Lagu Ageung - Galatik Mangut</span>
+            <span className="text-white font-semibold">Tabuhan Lagu Ageung - Galatik Mangut</span>
           </div>
         </div>
       </Container>

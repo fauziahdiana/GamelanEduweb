@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Container, Modal } from "react-bootstrap";
-import puspajala from "../Assets/Projects/puspajala.png";
-import sinyur from "../Assets/Projects/sinyur.png";
-import jenglong from "../Assets/Projects/sinyur_jenglong.png";
-import bonang from "../Assets/Projects/bonang_sinyur.png";
+import mangut from "../Assets/Projects/galatik_mangut.png";
+import saron from "../Assets/Projects/galatik_saron.png";
+import bonang from "../Assets/Projects/galatik_bonang.png";
+import pangkat from "../Assets/Projects/pangkat_bonang.png";
+import jenglong from "../Assets/Projects/galatik_jenglong.png";
+import lagu from "../Assets/Projects/galatik_mangut.png";
 
 function LaguAgeung() {
   const [showModal, setShowModal] = useState(false);
@@ -24,24 +26,34 @@ function LaguAgeung() {
 
   const videos = [
     {
-      title: "Tabuhan Panerus Sinyur (Puspajala)",
-      url: "https://www.youtube.com/embed/cjgb43S3PEE?si=l6UGRaBv0RLqWcC2",
-      thumbnail: puspajala,
+      title: "Galatik Mangut Peking",
+      url: "https://www.youtube.com/embed/YDDMQnZOOz8?si=Bz-y9SsNUpaDFwXZ",
+      thumbnail: mangut,
     },
     {
-      title: "Tabuhan Saron Sinyur",
-      url: "https://www.youtube.com/embed/u3y-s6QORqo?si=NcqdH-lyZ7n0jjco",
-      thumbnail: sinyur,
+      title: "Galatik Saron Mangut Panerus",
+      url: "https://www.youtube.com/embed/fN5h91kbLi0?si=GFiZunNGICGKIdsL",
+      thumbnail: saron,
     },
     {
-      title: "Tabuhan Jenglong Sinyur (Puspajala)",
-      url: "https://www.youtube.com/embed/J8nNtsj9cLk?si=3ImOmYg6WQzQM0Il",
+      title: "Tabuhan Galatik Mangut Bonang",
+      url: "https://www.youtube.com/embed/1XMQPdhbspc?si=9Kwdb7CiqJxKKw0B",
+      thumbnail: bonang,
+    },
+    {
+      title: "Pangkat Galatik Mangut Bonang",
+      url: "https://www.youtube.com/embed/NYGB7aW3ACE?si=CUA1Z_RNYHs3MGju",
+      thumbnail: pangkat,
+    },
+    {
+      title: "Galatik Mangut Jenglong",
+      url: "https://www.youtube.com/embed/yOp56Y1seDY?si=LPt713FgCVB8ysTq",
       thumbnail: jenglong,
     },
     {
-      title: "Tabuhan Bonang Sinyur (Puspajala)",
+      title: "Galatik Mangut Jenglong",
       url: "https://www.youtube.com/embed/COh1437Ppq0?si=f09qvZwIPUXSLgVg",
-      thumbnail: bonang,
+      thumbnail: lagu,
     },
   ];
 
@@ -115,6 +127,35 @@ function LaguAgeung() {
                 <h3 className="text-xl font-semibold">{videos[2].title}</h3>
               </div>
             </div>
+
+            {/* Video 5 */}
+            <div
+              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              onClick={() => handleShow(videos[4].url, videos[4].title)}
+            >
+              <div className="relative">
+                <img
+                  src={videos[4].thumbnail}
+                  alt={`Thumbnail ${videos[4].title}`}
+                  className="w-48 h-28 object-cover"
+                />
+                <div className="absolute inset-0 flex justify-center items-center">
+                  <div className="bg-gray-800 bg-opacity-75 p-2 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-10 w-10 text-white"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d="M3 22v-20l18 10-18 10z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 text-white flex-1">
+                <h3 className="text-xl font-semibold">{videos[4].title}</h3>
+              </div>
+            </div>
           </div>
 
           {/* Column 2: Video 2 on top of Video 4 */}
@@ -174,6 +215,35 @@ function LaguAgeung() {
               </div>
               <div className="p-4 text-white flex-1">
                 <h3 className="text-xl font-semibold">{videos[3].title}</h3>
+              </div>
+            </div>
+
+            {/* Video 6 */}
+            <div
+              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              onClick={() => handleShow(videos[5].url, videos[5].title)}
+            >
+              <div className="relative">
+                <img
+                  src={videos[5].thumbnail}
+                  alt={`Thumbnail ${videos[5].title}`}
+                  className="w-48 h-28 object-cover"
+                />
+                <div className="absolute inset-0 flex justify-center items-center">
+                  <div className="bg-gray-800 bg-opacity-75 p-2 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-10 w-10 text-white"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d="M3 22v-20l18 10-18 10z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 text-white flex-1">
+                <h3 className="text-xl font-semibold">{videos[5].title}</h3>
               </div>
             </div>
           </div>
