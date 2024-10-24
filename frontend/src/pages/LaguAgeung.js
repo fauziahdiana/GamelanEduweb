@@ -5,7 +5,6 @@ import saron from "../Assets/Projects/galatik_saron.png";
 import bonang from "../Assets/Projects/galatik_bonang.png";
 import pangkat from "../Assets/Projects/pangkat_bonang.png";
 import jenglong from "../Assets/Projects/galatik_jenglong.png";
-import lagu from "../Assets/Projects/galatik_mangut.png";
 
 function LaguAgeung() {
   const [showModal, setShowModal] = useState(false);
@@ -49,11 +48,6 @@ function LaguAgeung() {
       title: "Galatik Mangut Jenglong",
       url: "https://www.youtube.com/embed/yOp56Y1seDY?si=LPt713FgCVB8ysTq",
       thumbnail: jenglong,
-    },
-    {
-      title: "Galatik Mangut Jenglong",
-      url: "https://www.youtube.com/embed/COh1437Ppq0?si=f09qvZwIPUXSLgVg",
-      thumbnail: lagu,
     },
   ];
 
@@ -215,35 +209,6 @@ function LaguAgeung() {
               </div>
               <div className="p-4 text-white flex-1">
                 <h3 className="text-xl font-semibold">{videos[3].title}</h3>
-              </div>
-            </div>
-
-            {/* Video 6 */}
-            <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
-              onClick={() => handleShow(videos[5].url, videos[5].title)}
-            >
-              <div className="relative">
-                <img
-                  src={videos[5].thumbnail}
-                  alt={`Thumbnail ${videos[5].title}`}
-                  className="w-48 h-28 object-cover"
-                />
-                <div className="absolute inset-0 flex justify-center items-center">
-                  <div className="bg-gray-800 bg-opacity-75 p-2 rounded-full">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-10 w-10 text-white"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M3 22v-20l18 10-18 10z" />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <div className="p-4 text-white flex-1">
-                <h3 className="text-xl font-semibold">{videos[5].title}</h3>
               </div>
             </div>
           </div>
