@@ -156,7 +156,7 @@ function Tutorial() {
           <div className="flex flex-col gap-4">
             {/* Video 2 */}
             <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              className="bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[1].url, videos[1].title)}
             >
               <div className="relative">
@@ -185,7 +185,7 @@ function Tutorial() {
 
             {/* Video 4 */}
             <div
-              className="bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
+              className="bg-[#1a4d6b] hover:bg-[#C28E16] transition-colors duration-300 rounded-xl shadow-md overflow-hidden flex items-center cursor-pointer"
               onClick={() => handleShow(videos[3].url, videos[3].title)}
             >
               <div className="relative">
