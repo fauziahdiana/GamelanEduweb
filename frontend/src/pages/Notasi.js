@@ -5,6 +5,8 @@ import dasar2 from "../Assets/Projects/POLA TABUHAN DASAR GAMELAN DEGUNG_2.jpg";
 import catrik from "../Assets/Projects/Catrik.jpg";
 import kulukulu from "../Assets/Projects/Kulu-Kulu.jpg";
 import sinyur from "../Assets/Projects/Sinyur.jpg";
+import mangut1 from "../Assets/Projects/mangut.jpg";
+import mangut2 from "../Assets/Projects/mangut2.jpg";
 
 function Notasi() {
   const [showModal, setShowModal] = useState(false);
@@ -27,6 +29,10 @@ function Notasi() {
     {
       title: "Notasi 4 - Tabuhan Puspa Jala (Sinyur)",
       urls: [sinyur],
+    },
+    {
+      title: "Notasi 5 - Tabuhan Lagu Ageung",
+      urls: [mangut1, mangut2],
     },
   ];
 
@@ -62,7 +68,7 @@ function Notasi() {
             <h2 className="project-heading mb-2 text-white">Notasi</h2>
           </div>
         </div>
-        {/* Grid layout for images (1 column, 4 rows) */}
+        {/* Grid layout for images (1 column, 5 rows) */}
         <div className="grid grid-cols-1 gap-2">
           {images.map((image, index) => (
             <div
