@@ -23,10 +23,9 @@ function NextHome() {
           Sejarah Gamelan di Indonesia
         </h5>
         <p className="mb-5 text-justify" style={{color: "#164058", fontSize: "20px"}}>
-        Gamelan merupakan salah satu alat musik tradisional Indonesia yang berasal dari daerah jawa. 
-        Gamelan itu sendiri berasal dari bahasa Jawa, “gamel” yang berarti memukul atau menabuh, 
-        diikuti akhiran “an” yang menjadikannya kata benda. Gamelan sering kita kenal sebagai salah satu perangkat 
-        musik yang tedapat dalam karawitan sunda, yang dikenal dengan sebutan “Gamelan Degung”.
+        Gamelan merupakan salah satu alat musik tradisional Indonesia yang berasal dari daerah Jawa. 
+        Gamelan sering dikenal dalam karawitan sunda dengan sebutan “Gamelan Degung” (Mustika et al., 2020). 
+        Kesenian gamelan degung sudah ada pada awal abad ke-19 (Astuti, Y. S., 2016). 
         </p>
       </div>
     </div>
@@ -37,12 +36,11 @@ function NextHome() {
           Apa itu Waditra?
         </h5>
         <p className="mt-3 mb-4 text-justify" style={{color: "#164058", fontSize: "20px"}}>
-        Keanekaragaman kesenian di Jawa Barat, salah satunya adalah kesenian Degung yang sudah ada sejak awal abad ke-19. 
-        Dalam kebudayaan Sunda, Degung berasal dari kata 'ngadeg' dan 'agung,' yang berarti berdiri megah. 
-        Kata ini mengandung makna 'bangsawan' atau 'Menak,' mencerminkan musik kerajaan yang menggambarkan keagungan dan martabat. 
-        Ada pandangan lain yang menyebut bahwa Degung berasal dari istilah 'Deg Ngadeg Kanu Agung,' yang berarti selalu menyembah 
-        Tuhan Yang Mahakuasa. Asumsi lain menyatakan bahwa kata 'degung' mungkin berasal dari 'ratu-agung' atau 'tumenggung,' 
-        mengingat Gamelan Degung sangat populer di kalangan pejabat, seperti Bandung Regent R.A.A. Wiranatakusuma
+        Waditra adalah istilah dalam bahasa Sunda yang mengacu pada alat musik tradisional, 
+        termasuk berbagai instrumen yang digunakan dalam kesenian Sunda. Salah satu contohnya adalah Gamelan Degung, 
+        sebuah ansambel musik yang terdiri dari berbagai waditra seperti saron, bonang, jenglong, dan goong. 
+        Setiap waditra dalam Gamelan Degung memiliki peran penting dalam menciptakan harmoni dan keindahan musik 
+        yang mencerminkan budaya dan tradisi Sunda.
         </p>
       </div>
       <div className="flex flex-col items-center justify-center w-full md:w-2/3">

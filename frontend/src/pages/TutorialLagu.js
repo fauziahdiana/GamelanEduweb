@@ -46,14 +46,14 @@ function Tutorial() {
             <span className="text-white font-semibold">Tabuhan Kulu-Kulu</span>
           </div>
 
-          {/* Button 4 */}
+          {/* Button 4
           <div
             className="flex items-center bg-[#1a4d6b] hover:bg-blue-700 transition-colors duration-300 rounded-xl shadow-md cursor-pointer p-4"
             onClick={() => handleNavigate("/lagu-ageung")}
           >
             <FaFolder className="h-10 w-10 text-white mr-2" />
             <span className="text-white font-semibold">Tabuhan Lagu Ageung - Galatik Mangut</span>
-          </div>
+          </div> */}
         </div>
       </Container>
     </Container>

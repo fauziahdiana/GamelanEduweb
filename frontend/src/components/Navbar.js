@@ -68,7 +68,8 @@ function NavBar() {
             <Nav.Item>
             <NavDropdown style={{ marginBottom: "2px", marginRight: "50px", fontSize: "20px" }} title="Tutorial" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/tutorial" onClick={() => updateExpanded(false)} >Teknik Tabuhan Dasar</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/tutorial-lagu" onClick={() => updateExpanded(false)}>Teknik Tabuhan Lagu</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/tutorial-lagu" onClick={() => updateExpanded(false)}>Teknik Tabuhan Lagu Salancaran</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/tutorial-ageung" onClick={() => updateExpanded(false)}>Teknik Tabuhan Lagu Ageung</NavDropdown.Item>
             </NavDropdown>
             </Nav.Item>
 

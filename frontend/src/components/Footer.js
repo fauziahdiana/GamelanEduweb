@@ -22,12 +22,12 @@ function Footer() {
             <Row>
               <Col md="6" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "10px", paddingTop: "20px", display: "flex", alignItems: "center" }}>
                 <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaPhone style={{ marginRight: "10px", color: "white" }} /> 088218271850
+                  <FaPhone style={{ marginRight: "10px", color: "white" }} /> 088218271850 (Irna Khaleda)
                 </h3>
               </Col>
               <Col md="6" className="footer-copywright" style={{ paddingBottom: "10px", paddingTop: "20px", display: "flex", alignItems: "center" }}>
                 <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaFacebook style={{ marginRight: "10px", color: "white" }} /> gamelanEduWeb.com/
+                  <FaInstagram style={{ marginRight: "10px", color: "white" }} /> @tride_edu
                 </h3>
               </Col>
             </Row>
@@ -36,30 +36,30 @@ function Footer() {
             <Row>
               <Col md="6" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "10px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
                 <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaEnvelope style={{ marginRight: "10px", color: "white" }} /> gamelanEduWeb@gmail.com
+                  <FaPhone style={{ marginRight: "10px", color: "white" }} /> 085846560925 (Marwan)
                 </h3>
               </Col>
               <Col md="6" className="footer-copywright" style={{ paddingBottom: "10px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
-                <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaInstagram style={{ marginRight: "10px", color: "white" }} /> @tride_edu
+              <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
+                  <FaEnvelope style={{ marginRight: "10px", color: "white" }} /> tried.edu@gmail.com
                 </h3>
               </Col>
             </Row>
 
             {/* Baris untuk Twitter (di bawah Facebook) */}
-            <Row>
+            {/* <Row>
               <Col md="6" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "10px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
                 <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
                   <FaTwitter style={{ marginRight: "10px", color: "white" }} /> @gamelanEduWeb
                 </h3>
               </Col>
-            </Row>
+            </Row> */}
 
             {/* Baris untuk Alamat dengan seluruh lebar */}
             <Row>
               <Col md="12" className="footer-copywright" style={{ paddingLeft: "30px", paddingBottom: "10px", paddingTop: "5px", display: "flex", alignItems: "center" }}>
                 <h3 style={{ color: "#F6B51B", fontSize: "18px", display: "flex", alignItems: "center", margin: 0 }}>
-                  <FaMapPin style={{ marginRight: "10px", color: "white" }} /> Jl. R.Syamsudin,S.H. No. 50, Cikole, Kec.Cikole, Kota Sukabumi, Jawa Barat 43113
+                  <FaMapPin style={{ marginRight: "10px", color: "white" }} /> Jl.Raya Rambay No.7 Rambay Kulon Rt 36 Rw.12 Desa Sukamantri Kec.Cisaat Kota Sukabumi, Jawa Barat 
                 </h3>
               </Col>
             </Row>

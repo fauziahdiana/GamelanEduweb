@@ -16,9 +16,9 @@ function Home() {
               <h1 className="heading-name">
                 <strong className="main-name">Selamat Datang di Gamelan EduWeb</strong>
               </h1>
-              <h2 style={{marginLeft: "10px", paddingTop: 15, color: "#164058", fontSize: "30px", }}>
+              <h2 style={{marginLeft: "10px", paddingTop: 15, color: "#164058", fontSize: "25px", }}>
                 Website ini dirancang sebagai panduan untuk mempelajari gamelan degung, termasuk sejarah,
-                teknik bermain, dan notasi lagu. Mari lestarikan dan sebarkan warisan musik Indonesia ini bersama kami!
+                teknik bermain, dan notasi lagu.  <br></br>Mari lestarikan dan sebarkan warisan musik Indonesia ini bersama kami!
               </h2>
             </Col>
           </Row>

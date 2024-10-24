@@ -8,6 +8,7 @@ import Jenis from "./pages/JenisGamelan";
 import Notasi from "./pages/Notasi";
 import Tutorial from "./pages/Tutorial";
 import TutorialLagu from "./pages/TutorialLagu";
+import TutorialAgeung from "./pages/TutorialAgeung";
 import CatrikPage from "./pages/CatrikPage";
 import SinyurPage from "./pages/SinyurPage";
 import KulukuluPage from "./pages/KulukuluPage";
@@ -51,6 +52,7 @@ function App() {
           <Route path="/notasi" element={<Notasi/>} />
           <Route path="/tutorial" element={<Tutorial/>} />
           <Route path="/tutorial-lagu" element={<TutorialLagu/>} />
+          <Route path="/tutorial-ageung" element={<TutorialAgeung/>} />
           <Route path="/catrik-page" element={<CatrikPage/>} />
           <Route path="/sinyur-page" element={<SinyurPage/>} />
           <Route path="/kulukulu-page" element={<KulukuluPage/>} />

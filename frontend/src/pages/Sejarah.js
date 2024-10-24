@@ -27,12 +27,10 @@ function About() {
           </div>
           <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
             <p className="mb-4 mx-3 text-justify text-white text-neutral-600 dark:text-neutral-200 leading-[1.5]" style={{fontSize: "20px"}}>
-              Gamelan merupakan salah satu alat musik tradisional Indonesia yang
-              berasal dari daerah jawa. Gamelan itu sendiri berasal dari bahasa
-              Jawa, “gamel” yang berarti memukul atau menabuh, diikuti akhiran
-              “an” yang menjadikannya kata benda. Gamelan sering kita kenal
-              sebagai salah satu perangkat musik yang tedapat dalam karawitan
-              sunda, yang dikenal dengan sebutan “Gamelan Degung”.
+            Gamelan merupakan salah satu alat musik tradisional Indonesia yang berasal dari daerah jawa. 
+            Gamelan itu sendiri berasal dari bahasa Jawa, “gamel” yang berarti memukul atau menabuh, 
+            diikuti akhiran “an” yang menjadikannya kata benda. Gamelan sering kita kenal sebagai salah 
+            satu perangkat musik yang tedapat dalam karawitan sunda, yang dikenal dengan sebutan “Gamelan Degung” (Mustika et al., 2020).
             </p>
           </div>
         </div>
@@ -40,17 +38,13 @@ function About() {
         <div className="flex flex-col md:flex-row rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full md:w-2/3">
             <p className="mt-3 mb-4 mx-3 text-justify text-white text-neutral-600 dark:text-neutral-200 leading-[1.5]" style={{fontSize: "20px"}}>
-              Keanekaragaman kesenian di Jawa Barat, salah satunya adalah
-              kesenian Degung yang sudah ada sejak awal abad ke-19. Dalam
-              kebudayaan Sunda, Degung berasal dari kata 'ngadeg' dan 'agung,'
-              yang berarti berdiri megah. Kata ini mengandung makna 'bangsawan'
-              atau 'Menak,' mencerminkan musik kerajaan yang menggambarkan
-              keagungan dan martabat. Ada pandangan lain yang menyebut bahwa
-              Degung berasal dari istilah 'Deg Ngadeg Kanu Agung,' yang berarti
-              selalu menyembah Tuhan Yang Mahakuasa. Asumsi lain menyatakan
-              bahwa kata 'degung' mungkin berasal dari 'ratu-agung' atau
-              'tumenggung,' mengingat Gamelan Degung sangat populer di kalangan
-              pejabat, seperti Bandung Regent R.A.A. Wiranatakusuma
+            Keanekaragaman kesenian di Jawa Barat, salah satunya adalah kesenian Degung yang sudah ada sejak awal abad ke-19  
+            (Astuti, Y. S., 2016). Dalam kebudayaan Sunda, Degung berasal dari kata 'ngadeg' dan 'agung,' yang berarti berdiri 
+            megah. Kata ini mengandung makna 'bangsawan' atau 'Menak,' mencerminkan musik kerajaan yang menggambarkan keagungan 
+            dan martabat. Ada pernyataan lain yang menyatakan bahwa Degung berasal dari istilah 'Deg Ngadeg Kanu Agung,' 
+            yang berarti harus selalu menghadapi dan menyembah Tuhan Yang Mahakuasa. Asumsi lain menyatakan bahwa kata 'degung' 
+            berasal dari kata 'ratu-agung' atau 'tumenggung,' seperti yang dikatakan bahwa Gamelan Degung sangat populer di kalangan pejabat, 
+            seperti Bandung Regent R.A.A. Wiranatakusuma (Maspuroh et al., 2023).
             </p>
           </div>
           <div className="flex flex-col items-center justify-center w-full md:w-1/3">

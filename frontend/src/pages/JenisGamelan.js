@@ -62,10 +62,22 @@ function JenisGamelan() {
         <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
           <div className="flex flex-col justify-center p-6 text-left text-black w-full">
             <p className="mt-4 mb-4 text-white text-justify text-neutral-600 dark:text-neutral-200" style={{fontSize: "20px"}}>
-              Gamelan Degung berasal dari Sunda, Jawa Barat, dan biasanya digunakan dalam upacara adat, pernikahan, serta 
-              pertunjukan seni. Ansambel ini lebih kecil dibandingkan gamelan Jawa atau Bali, dan memiliki suara yang lebih 
-              lembut. Instrumen utama dalam Gamelan Degung termasuk saron, bonang, kendang, jengglong, dan gong, dengan fokus 
-              pada harmoni yang halus dan melodi yang mengalun.
+            Dalam kebudayaan Sunda, Degung berasal dari istilah “ngadeg” dan “agung” yang dalam bahasa Indonesia
+            bisa diartikan dengan kata berdiri dan
+            megah. Dalam bahasa Indonesia, kedua
+            kata itu bersama-sama membentuk kata
+            pangagung, yang berarti "bangsawan" atau "Menak." Orang Sunda percaya bahwa Degung adalah musik kerajaan
+            atau Kadaleman karena memiliki arti yang sama dengan seni yang
+            dimaksudkan mencerminkan keagungan
+            dan martabat bangsawan. Pernyataan lain menyatakan bahwa Degung berasal dari istilah "Deg Ngadeg Kanu Agung" yang
+            berarti harus selalu menghadapi dan
+            menyembah Tuhan Yang Mahakuasa.
+            Ada asumsi lain sementara orang-orang
+            bahwa kata degung berasal dari kata
+            "ratu-agung" atau "tumenggung", seperti
+            yang dikatakan bahwa Gamelan Degung
+            sangat populer di kalangan pejabat pada
+            waktu itu, misalnya Bandung Regent R.A.A. WIRANATAKUSUMA adalah salah satu yang sangat menyukai pejabat-pejabat (Herawan, 2009).
             </p>
           </div>
         </div>
