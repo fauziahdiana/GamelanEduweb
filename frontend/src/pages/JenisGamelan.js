@@ -139,32 +139,7 @@ function JenisGamelan() {
       )}
 
       {/* Dropdown Button */}
-      <button
-        onClick={toggleCardVisibility4}
-        className="w-full mb-2 p-3 bg-[#164058] text-white rounded-lg flex items-center justify-between focus:outline-none"
-      >
-        <span
-          className={`text-left ml-4 ${isCardVisible4 ? 'text-yellow-500' : 'text-white'}`}
-          style={{fontSize: "20px"}}
-        >
-          Gamelan Jakarta
-        </span>
-        <ChevronDownIcon className="h-5 w-5" />
-      </button>
-      
-      {/* Card */}
-      {isCardVisible4 && (
-        <div className="flex flex-col md:flex-row bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-2 rounded-xl">
-          <div className="flex flex-col justify-center p-6 text-left text-black w-full">
-            <p className="mt-4 mb-4 text-white text-justify text-neutral-600 dark:text-neutral-200" style={{fontSize: "20px"}}>
-              Gamelan Cokekan adalah gamelan yang digunakan di wilayah Betawi, Jakarta, terutama dalam hiburan rakyat atau 
-              pertunjukan kesenian Betawi. Ansambel ini lebih sederhana dibandingkan dengan gamelan Jawa atau Bali, dan sering 
-              digunakan untuk mengiringi seni pertunjukan lokal seperti lenong atau gambang kromong. Instrumennya biasanya lebih 
-              ringan dan mudah dibawa.
-            </p>
-          </div>
-        </div>
-      )}
+     
 
       {/* Dropdown Button */}
       <button

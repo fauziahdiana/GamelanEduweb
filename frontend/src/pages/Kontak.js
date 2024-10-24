@@ -64,7 +64,7 @@ function TeamBio() {
       <Container>
         <div className="flex flex-col md:flex-row justify-center items-center rounded-lg bg-[#164058] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-full mb-8">
           <div className="p-2 text-center">
-            <h2 className="project-heading mb-2 text-white">Meet Our Team</h2>
+            <h2 className="project-heading mb-2 text-white">Tim Pengembang Gamelan EduWeb</h2>
           </div>
         </div>
 
