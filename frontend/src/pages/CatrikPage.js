@@ -219,8 +219,19 @@ function CatrikPage() {
 
         {/* Modal */}
         <Modal show={showModal} onHide={handleClose} centered size="lg">
-          <Modal.Header closeButton>
-            <Modal.Title>{selectedTitle}</Modal.Title>
+        <Modal.Header
+            style={{
+              backgroundColor: "#1a4d6b", // Set the background to blue
+              display: "flex",
+              justifyContent: "center", // Center the content inside header
+              position: "relative", // Allow positioning the close button
+            }}
+          >
+            <Modal.Title
+              style={{ textAlign: "center", color: "#F6B51B", flex: 1 }}
+            >
+              {selectedTitle}
+            </Modal.Title>
           </Modal.Header>
           <Modal.Body className="embed-responsive embed-responsive-16by9">
             <iframe
@@ -231,6 +242,15 @@ function CatrikPage() {
               allowFullScreen
             ></iframe>
           </Modal.Body>
+          <div className="flex items-center bg-[#164058] justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+            <button
+              className="text-white background-transparent font-bold uppercase px-6 py-2 text-m outline-none focus:outline-none ease-linear transition-all duration-150 hover:bg-blue-700 hover:text-white"
+              type="button"
+              onClick={handleClose}
+            >
+              Kembali
+            </button>
+          </div>
         </Modal>
       </Container>
     </Container>
